@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/junk_result_loading_main_fl" android:background="@drawable/tac_boost_anim_main_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="bottom" android:id="@id/boost_earth_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tac_boost_anim_earth" />
+    <ImageView android:id="@id/boost_start_bg_01" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/boost_start_bg_02" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/boost_icon_01" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="100.0dip" android:layout_marginTop="100.0dip" android:scaleX="0.0" android:scaleY="0.0" />
+    <ImageView android:layout_gravity="bottom" android:id="@id/boost_icon_02" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="150.0dip" android:layout_marginBottom="100.0dip" android:scaleX="0.0" android:scaleY="0.0" />
+    <ImageView android:layout_gravity="right" android:id="@id/boost_icon_03" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginTop="130.0dip" android:layout_marginRight="100.0dip" android:scaleX="0.0" android:scaleY="0.0" />
+    <ImageView android:layout_gravity="bottom|center|right" android:id="@id/boost_icon_04" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginRight="50.0dip" android:layout_marginBottom="150.0dip" android:scaleX="0.0" android:scaleY="0.0" />
+    <FrameLayout android:layout_gravity="center" android:id="@id/boost_rocket_fl" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/boost_rocket_fire" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="55.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/tac_boost_anim_fire" />
+        <ImageView android:id="@id/boost_rocket" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tac_boost_anim_rocket" />
+    </FrameLayout>
+    <ImageView android:id="@id/boost_anim_close" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/tac_boost_anim_close" />
+</FrameLayout>

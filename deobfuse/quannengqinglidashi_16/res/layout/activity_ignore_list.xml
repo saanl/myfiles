@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/ignore_main_fl" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/theme_window_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/include_enter_tool_bar" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ignore_content_ll" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="14.0sp" android:textColor="@color/text_color" android:paddingLeft="15.0dip" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ignore_list_tips" />
+            <android.support.v7.widget.RecyclerView android:id="@id/ignore_rv" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <ImageView android:background="@color/grey_400" android:layout_width="fill_parent" android:layout_height="0.30000007dip" />
+            <Button android:enabled="false" android:textColor="@drawable/ignore_remove_btn_color" android:id="@id/ignore_remove_btn" android:background="@drawable/ignore_remove_btn_selector" android:layout_width="fill_parent" android:layout_height="45.0dip" android:text="@string/ignore_remove" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="end" android:id="@id/add_btn" android:background="?selectableItemBackground" android:layout_width="50.0dip" android:layout_height="50.0dip">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tac_ic_add" />
+    </FrameLayout>
+    <TextView android:textSize="16.0sp" android:textColor="@color/text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/ignore_click_tips_tv" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ignore_click_tips" />
+</FrameLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:background="@color/color_main" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="180.0dip" android:layout_marginTop="20.0dip">
+            <LinearLayout android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/main_ram_enter" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <FrameLayout android:layout_gravity="center" android:paddingLeft="25.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <me.andlab.yb.widget.CircularProgressBar android:id="@id/main_ram_pb" android:layout_width="153.0dip" android:layout_height="153.0dip" app:cpb_progressbar_color="@color/white" app:cpb_background_progressbar_color="@color/black_30p" app:cpb_progressbar_width="15.0dip" app:cpb_background_progressbar_width="10.0dip" />
+                    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="horizontal" android:id="@id/ram_percent_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <me.andlab.yb.widget.NumberAnimTextView android:textSize="48.0sp" android:textColor="@color/white" android:id="@id/ram_percent_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="55" />
+                            <TextView android:textSize="16.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="%" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </FrameLayout>
+                <TextView android:textSize="16.0sp" android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/ram_percent" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/main_storage_enter" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <me.andlab.yb.widget.CircularProgressBar android:layout_gravity="bottom|center" android:id="@id/main_rom_pb" android:layout_width="100.0dip" android:layout_height="100.0dip" app:cpb_progressbar_color="@color/white" app:cpb_background_progressbar_color="@color/black_30p" app:cpb_progressbar_width="10.0dip" app:cpb_background_progressbar_width="8.0dip" />
+                    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <me.andlab.yb.widget.NumberAnimTextView android:textSize="38.0sp" android:textColor="@color/white" android:id="@id/rom_percent_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="55" />
+                        <TextView android:textSize="14.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="%" />
+                    </LinearLayout>
+                </FrameLayout>
+                <TextView android:textSize="16.0sp" android:textColor="@color/white" android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/storage_percent" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:layout_gravity="bottom" android:id="@id/main_star" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="90.0dip" android:src="@drawable/tac_main_star" />
+        <ImageView android:layout_gravity="bottom|center" android:id="@id/main_rocket" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="94.0dip" android:src="@drawable/tac_main_rocket" />
+        <ImageView android:layout_gravity="bottom" android:id="@id/main_air" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/tac_main_boost_air" />
+    </FrameLayout>
+</RelativeLayout>

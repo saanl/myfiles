@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/theme_window_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <include android:layout_width="fill_parent" android:layout_height="160.0dip" layout="@layout/include_junk_clean_header" />
+        <com.diegocarloslima.fgelv.lib.FloatingGroupExpandableListView android:id="@id/junk_list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:cacheColorHint="@null" android:groupIndicator="@null" android:divider="@null" android:dividerHeight="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <me.andlab.yb.widget.CleanBounceButton android:layout_gravity="bottom|center" android:id="@id/junk_clean_btn" android:visibility="gone" android:layout_width="75.0dip" android:layout_height="75.0dip" android:layout_marginBottom="30.0dip" />
+</FrameLayout>

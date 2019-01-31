@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_full_time_hour">
+        <item quantity="other">saatler</item>
+        <item quantity="one">%1$d saat</item>
+    </plurals>
+    <plurals name="battery_full_time_minute">
+        <item quantity="other">%1$d dakika</item>
+        <item quantity="one">dakika</item>
+    </plurals>
+</resources>

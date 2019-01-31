@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_full_time_hour">
+        <item quantity="other">%1$d часы</item>
+        <item quantity="one">%1$d час</item>
+        <item quantity="few">%1$d часы</item>
+        <item quantity="many">%1$d часы</item>
+    </plurals>
+    <plurals name="battery_full_time_minute">
+        <item quantity="other">%1$d мин</item>
+        <item quantity="one">%1$d мин</item>
+        <item quantity="few">мин</item>
+        <item quantity="many">%1$d мин</item>
+    </plurals>
+</resources>

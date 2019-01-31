@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="me.andlab.yb" platformBuildVersionCode="23" platformBuildVersionName="6.0-2438415">
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.REAL_GET_TASKS"/>
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE"/>
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.BATTERY_STATS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION"/>
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <meta-data android:name="android.support.VERSION" android:value="25.3.1"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <permission android:name="me.andlab.yb.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="me.andlab.yb.permission.C2D_MESSAGE"/>
+    <application android:allowBackup="true" android:icon="@mipmap/app_logo" android:label="@string/app_name" android:name="com.stub.StubApp" android:supportsRtl="true" android:theme="@style/AppTheme">
+        <activity android:name="me.andlab.yb.MainActivity" android:screenOrientation="portrait">
+            <intent-filter> /&gt;
+<action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:launchMode="standard" android:name="com.stub.plugin.Stub01" android:noHistory="true" android:taskAffinity="me.andlab.yb.affinity"/>
+        <service android:enabled="true" android:exported="true" android:name="com.stub.plugin.Stub02"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.stub.plugin.Stub03"/>
+        <provider android:authorities="me.andlab.yb.COMMONPROVIDER" android:exported="true" android:name="com.stub.plugin.Stub04"/>
+        <activity android:excludeFromRecents="true" android:name="com.stub.stub08.AppUpdateActivity" android:noHistory="true" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <meta-data android:name="app_license" android:value="326b45c8a0c1acee327e690bc1212005"/>
+        <provider android:authorities="me.andlab.yb.DuAdCacheProvider" android:exported="false" android:name="com.duapps.ad.stats.DuAdCacheProvider"/>
+        <receiver android:name="com.duapps.ad.base.PackageAddReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mopub.common.MoPubBrowser"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mopub.mobileads.MraidVideoPlayerActivity"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <activity android:name="me.andlab.yb.ui.junk.activity.JunkFilesScanActivity" android:screenOrientation="portrait"/>
+        <activity android:name="me.andlab.yb.ui.junk.activity.JunkFilesResultActivity" android:screenOrientation="portrait"/>
+        <activity android:name="me.andlab.yb.ui.boost.activity.ignore.IgnoreChooseActivity" android:screenOrientation="portrait"/>
+        <activity android:name="me.andlab.yb.ui.settings.SettingsActivity" android:screenOrientation="portrait"/>
+        <activity android:name="me.andlab.yb.ui.settings.SmartLockerSettingsActivity" android:screenOrientation="portrait"/>
+        <activity android:name="me.andlab.yb.ui.settings.FeedbackActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTask" android:name="me.andlab.yb.ui.boost.activity.BoostActivity" android:screenOrientation="portrait"/>
+        <activity android:name="me.andlab.yb.ui.boost.activity.BoostResultActivity" android:screenOrientation="portrait"/>
+        <activity android:label="全能清理大师" android:name="me.andlab.yb.ui.boost.activity.ignore.IgnoreActivity" android:screenOrientation="portrait"/>
+        <activity android:name="me.andlab.yb.ui.settings.AboutActivity" android:screenOrientation="portrait"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:launchMode="singleInstance" android:name="me.andlab.yb.ui.locker.activity.SmartLockerActivity" android:screenOrientation="portrait" android:taskAffinity="com.abclauncher.cooler.task" android:theme="@style/BatteryLockScreenStyle"/>
+        <activity android:excludeFromRecents="true" android:launchMode="singleInstance" android:name="me.andlab.yb.ui.shortcut.BoostShortcutActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Activity.Dialog">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:launchMode="singleInstance" android:name="me.andlab.yb.ui.gift.GiftActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Activity.Dialog"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:launchMode="singleInstance" android:name="me.andlab.yb.ui.locker.activity.SmartChargeActivity" android:screenOrientation="portrait" android:taskAffinity="me.andlab.smart.charge.task" android:theme="@style/BatteryLockScreenStyle"/>
+        <service android:exported="true" android:name="me.andlab.yb.service.BoostService"/>
+        <service android:exported="false" android:name="me.andlab.yb.service.daemon.DaemonService"/>
+        <service android:enabled="true" android:exported="true" android:name="me.andlab.yb.service.daemon.JobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="true" android:name="com.google.android.gms.analytics.CampaignTrackingReceiver" android:permission="android.permission.INSTALL_PACKAGES">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="me.andlab.yb.service.BootCompletedReceiver">
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.google.android.gms.ads.AdActivity" android:theme="@android:style/Theme.Translucent"/>
+        <service android:name="com.android.apps.pros.LocalCService" android:process=":local"/>
+        <receiver android:name="com.android.apps.pros.LocalAReceiver" android:process=":local"/>
+        <receiver android:name="com.android.apps.pros.LocalCReceiver" android:process=":local">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.android.apps.pros.LocalMService"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.facebook.ads.AudienceNetworkActivity"/>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <provider android:authorities="me.andlab.yb.FacebookInitProvider" android:exported="false" android:name="com.facebook.internal.FacebookInitProvider"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:name="com.facebook.FacebookActivity" android:theme="@style/com_facebook_activity_theme"/>
+        <activity android:name="com.facebook.CustomTabMainActivity"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementReceiver"/>
+        <receiver android:enabled="true" android:exported="true" android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" android:permission="android.permission.INSTALL_PACKAGES">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <category android:name="me.andlab.yb"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"/>
+        <service android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="me.andlab.yb.firebaseinitprovider" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <meta-data android:name="APPKEY" android:value="Mjk1YTE1YzUzY2JmNDhiMjg2NTY1OWI1ZDdiOTE3MWMsMSwxLDEsMSwxLDEsMSwxLDE"/>
+        <receiver android:name="me.andlab.booster.Ebh">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="me.andlab.booster.Csz"/>
+        <activity android:name="me.andlab.booster.LinActivity" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:name="me.andlab.booster.EpiActivity" android:screenOrientation="portrait"/>
+        <activity android:name="me.andlab.booster.VgqqbActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

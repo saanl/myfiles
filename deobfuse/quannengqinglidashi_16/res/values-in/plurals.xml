@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="battery_full_time_hour">
+        <item quantity="other">%1$d hours</item>
+        <item quantity="one">%1$d hour</item>
+    </plurals>
+    <plurals name="battery_full_time_minute">
+        <item quantity="other">%1$d minutes</item>
+        <item quantity="one">%1$d minute</item>
+    </plurals>
+</resources>

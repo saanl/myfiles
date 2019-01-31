@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>def_percent_boost_result_du_ad</key>
+        <value>0.2</value>
+    </entry>
+    <entry>
+        <key>def_percent_junk_result_du_ad</key>
+        <value>0.2</value>
+    </entry>
+    <entry>
+        <key>def_percent_locker_du_ad</key>
+        <value>0.2</value>
+    </entry>
+</defaultsMap>

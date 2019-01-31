@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout android:orientation="vertical" android:id="@id/smart_locker_main" android:background="@color/black_30p" android:paddingTop="18.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/time_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_widthPercent="100.0%" app:layout_heightPercent="25.0%" layout="@layout/include_time_locker" />
+    <FrameLayout android:id="@id/charge_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/time_layout" app:layout_widthPercent="100.0%" app:layout_heightPercent="4.999995%">
+        <TextView android:textSize="14.0sp" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/simple_locker_charge_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="full" android:drawableLeft="@drawable/smart_locker_charge" android:drawablePadding="5.0dip" />
+    </FrameLayout>
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/charge_layout" android:layout_centerHorizontal="true" app:layout_widthPercent="100.0%" app:layout_heightPercent="16.999996%" layout="@layout/include_locker_pb" />
+    <include android:id="@id/slide_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:layout_widthPercent="100.0%" app:layout_heightPercent="10.000002%" layout="@layout/include_slide" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_above="@id/slide_layout" app:layout_widthPercent="100.0%" app:layout_heightPercent="35.000004%" layout="@layout/smart_locker_ad" />
+    <include android:layout_width="300.0dip" android:layout_height="250.0dip" android:layout_above="@id/slide_layout" android:layout_centerHorizontal="true" layout="@layout/include_locker_mopub_ad" />
+    <include android:layout_width="fill_parent" android:layout_height="250.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_above="@id/slide_layout" android:layout_centerHorizontal="true" layout="@layout/include_locker_admob_ad" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+        <ImageView android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/tac_ic_dialog_logo" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/alpha_60p" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name" />
+    </LinearLayout>
+    <ImageView android:id="@id/smart_locker_setting" android:background="?selectableItemBackgroundBorderless" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tac_ic_menu" android:tint="@color/white" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/text_color" android:id="@id/disable_tv" android:background="@drawable/white_bg" android:padding="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="@color/white" android:text="@string/disable" android:layout_below="@id/smart_locker_setting" android:layout_alignParentRight="true" />
+</android.support.percent.PercentRelativeLayout>

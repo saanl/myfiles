@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/black_30p" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/include_shortcut_boost_result" />
+    <FrameLayout android:layout_gravity="center" android:id="@id/shortcut_mail_fl" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@id/shortcut_cir_iv" android:layout_width="100.0dip" android:layout_height="100.0dip" android:src="@drawable/tac_ic_shortcut_cir" />
+        <ImageView android:layout_gravity="center" android:id="@id/shortcut_bg_iv" android:layout_width="88.0dip" android:layout_height="88.0dip" android:src="@drawable/ic_shortcut_bg" />
+        <ImageView android:layout_gravity="center" android:id="@id/shortcut_shadow_iv" android:layout_width="100.0dip" android:layout_height="100.0dip" android:src="@drawable/tac_ic_shortcut_shadow" />
+        <ImageView android:layout_gravity="center" android:id="@id/shortcut_rocket_iv" android:layout_width="95.0dip" android:layout_height="95.0dip" android:src="@drawable/tac_ic_shortcut_rocket" />
+    </FrameLayout>
+</FrameLayout>

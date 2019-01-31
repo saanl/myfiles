@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/theme_window_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/include_enter_tool_bar" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:background="@mipmap/app_logo" android:layout_width="@dimen/setting_about_img_width" android:layout_height="@dimen/setting_about_img_width" android:layout_marginBottom="@dimen/setting_about_img_margin_bottom" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip">
+                <TextView android:textSize="18.0sp" android:textColor="@color/text_color" android:id="@id/about_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <TextView android:textSize="16.0sp" android:textColor="@color/text_summary_color" android:layout_gravity="center" android:id="@id/about_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/text_summary_color" android:layout_gravity="center" android:id="@id/about_versions" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

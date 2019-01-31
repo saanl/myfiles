@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/white_bg" android:layout_width="fill_parent" android:layout_height="@dimen/list_item_height" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip">
+        <ImageView android:textColor="@color/text_color" android:layout_gravity="end|center" android:id="@id/list_item_junk_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:src="@drawable/ic_arrow_down" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/list_item_junk_icon" android:layout_width="33.0dip" android:layout_height="33.0dip" android:layout_margin="8.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/text_color" android:gravity="center_vertical" android:id="@id/list_item_junk_name" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="asdasda" android:layout_weight="1.0" />
+        <TextView android:textColor="@color/text_color_sub" android:gravity="center_vertical" android:id="@id/list_item_junk_total_mem_size_tv" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/junk_clean_check_fl" android:layout_width="50.0dip" android:layout_height="fill_parent">
+            <CheckBox android:layout_gravity="center" android:id="@id/junk_clean_check_all_cb" android:paddingLeft="18.0dip" android:visibility="visible" android:layout_width="50.0dip" android:layout_height="fill_parent" android:button="@null" android:drawableLeft="@drawable/memory_selector" />
+            <me.zhanghai.android.materialprogressbar.MaterialProgressBar android:layout_gravity="center" android:id="@id/junk_files_group_pb" android:layout_width="22.0dip" android:layout_height="22.0dip" android:indeterminate="true" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

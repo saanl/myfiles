@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/tool_bar_main_ll" android:layout_width="fill_parent" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="start" android:id="@id/back_btn" android:background="?selectableItemBackgroundBorderless" android:layout_width="50.0dip" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tac_ic_back" />
+    </FrameLayout>
+    <TextView android:textSize="18.0sp" android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@id/enter_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+</LinearLayout>

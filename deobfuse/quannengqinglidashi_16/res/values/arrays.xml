@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="high_ecpm_country_array">
+        <item>us</item>
+        <item>gb</item>
+        <item>nz</item>
+        <item>ca</item>
+        <item>au</item>
+    </string-array>
+    <string-array name="main_menu_settings">
+        <item>@string/settings_text</item>
+        <item>@string/feedback_title</item>
+        <item>@string/rate_us</item>
+    </string-array>
+</resources>

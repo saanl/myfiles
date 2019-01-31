@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:background="@color/theme_window_background" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.AppBarLayout android:id="@id/app_bar" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="150.0dip">
+        <android.support.design.widget.CollapsingToolbarLayout android:id="@id/toolbar_layout" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_scrollFlags="exitUntilCollapsed|scroll|snap" app:collapsedTitleTextAppearance="?toolbarStyle" app:contentScrim="@color/color_red_400" app:titleEnabled="false">
+            <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/include_boost_header" />
+            <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="?selectableItemBackgroundBorderless" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:layout_collapseMode="pin" app:navigationIcon="@drawable/tac_ic_back" />
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <TextView android:textColor="@color/text_color" android:gravity="center_vertical" android:id="@id/running_app_title" android:background="@color/white" android:paddingLeft="15.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginBottom="6.0dip" android:text="@string/running_apps" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <android.support.v7.widget.RecyclerView android:id="@id/boost_recycler_view" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <me.andlab.yb.widget.LoadingLayout android:layout_gravity="center" android:id="@id/boost_loading_ll" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginBottom="100.0dip" />
+        </FrameLayout>
+    </LinearLayout>
+    <me.andlab.yb.widget.CleanBounceButton android:layout_gravity="bottom|center" android:id="@id/boost_clean_btn" android:visibility="gone" android:layout_width="75.0dip" android:layout_height="75.0dip" android:layout_marginBottom="30.0dip" />
+</android.support.design.widget.CoordinatorLayout>

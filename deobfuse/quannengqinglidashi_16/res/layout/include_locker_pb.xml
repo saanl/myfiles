@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/locker_main_pb_ll" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_weight="1.0">
+        <FrameLayout android:layout_gravity="center" android:id="@id/pb_layout" android:layout_width="70.0dip" android:layout_height="70.0dip">
+            <me.andlab.yb.widget.CircularProgressBar android:id="@id/locker_pb" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cpb_progressbar_color="@color/white" app:cpb_background_progressbar_color="@color/white_30p" app:cpb_progressbar_width="7.0dip" app:cpb_background_progressbar_width="5.0dip" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/simple_locker_cup_battery_pb_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <TextView android:textColor="@color/white" android:layout_gravity="center" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/battery_title" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="50.0dip" android:layout_weight="1.0">
+        <FrameLayout android:layout_gravity="center" android:layout_width="70.0dip" android:layout_height="70.0dip">
+            <me.andlab.yb.widget.CircularProgressBar android:id="@id/mem_pb" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cpb_progressbar_color="@color/white" app:cpb_background_progressbar_color="@color/white_30p" app:cpb_progressbar_width="7.0dip" app:cpb_background_progressbar_width="5.0dip" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/mem_pb_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <TextView android:textColor="@color/white" android:layout_gravity="center" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/locker_tap_boost" />
+    </LinearLayout>
+</LinearLayout>

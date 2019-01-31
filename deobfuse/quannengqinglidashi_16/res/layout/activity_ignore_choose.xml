@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/include_enter_tool_bar" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/text_color" android:paddingLeft="15.0dip" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ignore_add_tips" />
+        <FrameLayout android:background="@color/theme_window_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <android.support.v7.widget.RecyclerView android:id="@id/ignore_choose_rv" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <me.zhanghai.android.materialprogressbar.MaterialProgressBar android:layout_gravity="center" android:id="@id/ig_loading_cir_pb" android:layout_width="40.0dip" android:layout_height="40.0dip" android:indeterminate="true" />
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="end" android:id="@id/choose_btn" android:background="?selectableItemBackground" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="50.0dip">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tac_ic_choose_btn" />
+    </FrameLayout>
+</FrameLayout>

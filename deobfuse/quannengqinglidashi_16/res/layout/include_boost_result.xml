@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout android:orientation="vertical" android:id="@id/boost_result_main_ll" android:background="@drawable/result_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/junk_result_header" app:layout_widthPercent="100.0%" app:layout_heightPercent="14.999998%">
+        <include layout="@layout/include_enter_tool_bar" />
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/result_ll" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:id="@id/ad_icon" android:paddingRight="5.0dip" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/tac_ic_rocket_white" android:scaleType="centerCrop" />
+            <TextView android:textSize="18.0sp" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/result_boost_mem_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="500MB" />
+        </LinearLayout>
+    </FrameLayout>
+    <me.andlab.yb.widget.ResultAdLayout android:id="@id/result_ad_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/junk_result_header" app:layout_widthPercent="100.0%" app:layout_heightPercent="85.0%" />
+    <me.andlab.yb.widget.AdMobResultView android:id="@id/boost_result_ad_view" android:layout_width="320.0dip" android:layout_height="320.0dip" android:layout_centerInParent="true" />
+</android.support.percent.PercentRelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/theme_window_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="fill_parent" android:layout_height="50.0dip" layout="@layout/include_enter_tool_bar" />
+    <me.andlab.yb.widget.Preference android:id="@id/pref_smart_locker" android:background="@drawable/white_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" app:p_defaultValue="true" app:p_title="@string/smart_locker_title" app:p_showRightArrow="true" />
+    <me.andlab.yb.widget.Preference android:id="@id/pref_ignore" android:background="@drawable/white_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" app:p_defaultValue="true" app:p_title="@string/pref_ignore_title" app:p_showRightArrow="true" />
+    <me.andlab.yb.widget.Preference android:id="@id/pref_noti" android:background="@drawable/white_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" app:p_key="PREF_NOTI_KEY" app:p_defaultValue="true" app:p_title="@string/notification_settings_title" app:p_showSwitch="true" />
+    <me.andlab.yb.widget.Preference android:id="@id/pref_shortcut" android:background="@drawable/white_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:p_defaultValue="true" app:p_title="@string/settings_shortcut_title" app:p_showRightArrow="true" />
+    <me.andlab.yb.widget.Preference android:id="@id/pref_about" android:background="@drawable/white_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" app:p_defaultValue="true" app:p_title="@string/about_page_title" app:p_showRightArrow="true" />
+</LinearLayout>

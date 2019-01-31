@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.gms.ads.formats.NativeAppInstallAdView android:id="@id/locker_ad_main_ll" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/charge_ad_bg" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:layout_below="@id/flag">
+            <ImageView android:id="@id/locker_ad_icon" android:layout_width="38.0dip" android:layout_height="38.0dip" />
+            <LinearLayout android:orientation="vertical" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="16.0sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/locker_ad_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/white_90p" android:ellipsize="end" android:id="@id/locker_ad_body" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" />
+            </LinearLayout>
+            <TextView android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/locker_ad_action" android:background="@drawable/charge_ad_btn_bg" android:paddingLeft="9.0dip" android:paddingTop="12.0dip" android:paddingRight="9.0dip" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" />
+        </LinearLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.tuyenmonkey.mkloader.MKLoader android:layout_gravity="center" android:layout_width="40.0dip" android:layout_height="40.0dip" app:mk_color="@color/white" app:mk_type="FivePulse" />
+            <com.google.android.gms.ads.formats.MediaView android:id="@id/locker_ad_media" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ImageView android:id="@id/locker_ad_media2" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ImageView android:id="@id/flag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_charge_ad_flag" />
+        </FrameLayout>
+    </LinearLayout>
+</com.google.android.gms.ads.formats.NativeAppInstallAdView>

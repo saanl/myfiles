@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/main_title_content" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/main_title_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <me.andlab.yb.widget.RippleView android:id="@id/main_title_left_button" android:visibility="gone" android:layout_width="@dimen/main_title_bar_height" android:layout_height="@dimen/main_title_bar_height" app:rv_rippleDuration="150">
+        <ImageView android:id="@id/main_title_left_icon" android:layout_width="@dimen/main_title_bar_height" android:layout_height="wrap_content" android:src="@drawable/tac_ic_back" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </me.andlab.yb.widget.RippleView>
+    <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:id="@id/main_title_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@string/app_name" android:layout_weight="1.0" />
+    <me.andlab.yb.widget.RippleView android:id="@id/main_title_right_button" android:visibility="visible" android:layout_width="@dimen/main_title_bar_height" android:layout_height="@dimen/main_title_bar_height" app:rv_rippleDuration="150">
+        <ImageView android:id="@id/main_title_right_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/title_bar_button_info" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/red_point" android:background="@drawable/round_red" android:visibility="gone" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_marginLeft="35.0dip" android:layout_marginTop="10.0dip" />
+    </me.andlab.yb.widget.RippleView>
+</LinearLayout>

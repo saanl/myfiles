@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<me.andlab.yb.widget.SlidingLayout android:id="@id/slide_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/iv_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/content_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</me.andlab.yb.widget.SlidingLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.CardView android:id="@id/boost_enter_tv" android:layout_width="146.0dip" android:layout_height="146.0dip" app:cardElevation="8.0dip">
+        <TextView android:textColor="@color/text_color" android:layout_gravity="center" android:text="@string/memory_boost_text" android:drawableTop="@drawable/tac_home_button_memory_boost" android:drawablePadding="12.0dip" style="@style/BoostHomeEnterStyle" />
+        <ImageView android:background="?selectableItemBackgroundBorderless" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </android.support.v7.widget.CardView>
+    <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" />
+    <android.support.v7.widget.CardView android:id="@id/junk_enter_tv" android:layout_width="146.0dip" android:layout_height="146.0dip" app:cardElevation="8.0dip">
+        <TextView android:textColor="@color/text_color" android:layout_gravity="center" android:text="@string/junk_files_text" android:drawableTop="@drawable/tac_home_button_junk_clean" android:drawablePadding="12.0dip" style="@style/BoostHomeEnterStyle" />
+        <ImageView android:background="?selectableItemBackgroundBorderless" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </android.support.v7.widget.CardView>
+</LinearLayout>
