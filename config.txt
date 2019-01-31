@@ -1,0 +1,673 @@
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\b48f7e42af9b4475ed5eca7a18939277\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\81b8d4cbc05af38fc9987c3b3899ba56\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\HockeySDK-5.1.1.aar\ca1eb83addbcb3e9c92d919c05565983\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\appcenter-analytics-1.11.2.aar\cc00c04dd9bf26d1d32e08bdf81f4b5a\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\appcenter-crashes-1.11.2.aar\f3dbbb9b7e7f4498b86e60d0f0f226e7\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\appcenter-push-1.11.2.aar\881b3bb27d77e349cad18a924db9511a\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.0.0.aar\6dd865e683db12753eaa2cce3579bdde\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.1.aar\f3bf619de0b1832a942ffd4f99496afd\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\807e3933b541a8130edb10d88ff0a63a\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\e8676363012afc77419536c71c731fac\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\98b63aced9ae20d354f6514b2bba1dca\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\9713c518c3b997f3db38f4f1a878b7a9\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.0.aar\f7825898acdd0cfaa98b4ffe67ec5e0e\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.0.aar\3e9c94367aeba7097b555675a3caaf56\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\170908597db9333cbf00fbbb2e90162e\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\e7c46efce1d0162802eaf59fa2463949\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-16.0.0.aar\2eda23017743091fa4eedd1dbffd6605\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\play-services-stats-15.0.1.aar\da4c7d027db2e83d144311ff84a7c01c\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\8a0b3680625a7db6b7f2b06363966380\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\d6b0813566f8358e6f9be1c0a0f28516\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\9862f107432b48ff17769d0241b6fd4a\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\2590dacc922c97b323b53a8aee88dbac\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\c2787ec4457a646d059545df1a41b97f\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\9a3443b8d1f1828daf2f2c80c42ed991\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\f87cf25ad1334aa709439fb24b69ec29\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\1e814af7f5d6b29f62157e28ecbf330c\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\5982d103cbf991d6d42fb2a4d7576785\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\aa7c34065adcd09fb5150d379aa968a4\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\ae2d9ec6a19bded84ac2f6cb749c2218\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\29348d50a3263b5bc08b694c89f50ea0\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\bca5f0a4bc0574379bb96b6365be6250\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\6d12792fe2f1872c4e046d1fba47b13d\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\e999983536464c2faecb661b6f814004\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\29cc51063bd102fc758eb96c23ceb9ac\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\ccef40f7190f6d6b87e5e291a9c34895\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\286d7d4ecf02bb0cc43782175cc298de\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\5d89a48c0f011413b81c8d9a07900294\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\modules-2\files-2.1\com.android.support\collections\28.0.0\c1bcdade4d3cc2836130424a3f3e4182c666a745\collections-28.0.0.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\01798a6bcc186c18b447842d3c9680e9\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\fe6f7bf43506c61a0290f5294489749d\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\e3ebb87af9efab6249a04b08367af364\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\a9cc4011d94583a4583495d57ed6b042\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\adbe41abdfc5af5169c419127bd29a9f\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\4a92895883a1521be512fb869d02fd47\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\5b16d0e9cdfe5680ecd0b9d53ff448e8\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\a9376df67cd824b986d8b923fbb6f23c\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\8853a131fba952571dbc38d7b227aad0\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.1.1\207a6efae6a3555e326de41f76bdadd9a239cbce\common-1.1.1.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\f2195d5342d29fb4061299a65b8c6ca4\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.1.1\e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95\common-1.1.1.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\28.0.0\ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8\support-annotations-28.0.0.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\modules-2\files-2.1\com.android.support.constraint\constraint-layout-solver\1.1.3\bde0667d7414c16ed62d3cfe993cff7f9d732373\constraint-layout-solver-1.1.3.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\appcenter-1.11.2.aar\c6739c7ab3beaa2ab0393db8c3367212\jars\classes.jar'(**.class)
+-injars 'C:\Users\willl\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.0.aar\1c67ec179a61341e0f0fb68164113bf2\jars\classes.jar'(**.class)
+-injars 'D:\hockeydemo2\app\build\intermediates\javac\debug\compileDebugJavaWithJavac\classes'(**.class)
+-injars 'D:\hockeydemo2\app\build\intermediates\transforms\mergeJavaRes\debug\0.jar'(!**.class)
+-outjars 'D:\hockeydemo2\app\build\intermediates\transforms\proguard\debug\0.jar'
+
+-libraryjars 'D:\androidsdks\platforms\android-28\android.jar'
+-libraryjars 'D:\androidsdks\build-tools\28.0.2\core-lambda-stubs.jar'
+-libraryjars 'D:\androidsdks\platforms\android-28\optional\org.apache.http.legacy.jar'
+-libraryjars 'D:\androidsdks\platforms\android-28\optional\android.test.mock.jar'
+-libraryjars 'D:\androidsdks\platforms\android-28\optional\android.test.base.jar'
+-libraryjars 'D:\androidsdks\platforms\android-28\optional\android.test.runner.jar'
+
+-forceprocessing
+-printusage 'D:\hockeydemo2\app\build\outputs\mapping\debug\usage.txt'
+-dontoptimize
+-printmapping 'D:\hockeydemo2\app\build\outputs\mapping\debug\mapping.txt'
+-dontusemixedcaseclassnames
+-keepattributes *Annotation*,Signature,InnerClasses,EnclosingMethod,*Annotation*,*Annotation*
+-verbose
+-dontnote com.android.vending.licensing.ILicensingService,com.google.vending.licensing.ILicensingService,com.google.android.vending.licensing.ILicensingService,android.support.**,androidx.**,org.apache.http.**,android.net.http.**,java.lang.invoke.**
+-dontwarn android.support.**,androidx.**,android.util.FloatMath,com.google.firebase.iid.FirebaseInstanceId,com.google.firebase.iid.FirebaseInstanceIdService,com.google.firebase.analytics.FirebaseAnalytics,com.google.android.gms.measurement.AppMeasurement*,com.google.firebase.components.Component$Instantiation,android.security.NetworkSecurityPolicy,android.app.Notification,sun.misc.Unsafe,libcore.io.Memory,com.google.android.apps.common.proguard.UsedBy*,javax.annotation.**,org.checkerframework.**
+-printconfiguration 'C:\Users\willl\Desktop\test_guard\config.txt'
+-printseeds 'D:\hockeydemo2\app\build\outputs\mapping\debug\seeds.txt'
+
+
+
+-keep public class com.google.vending.licensing.ILicensingService
+
+-keep public class com.android.vending.licensing.ILicensingService
+
+-keep public class com.google.android.vending.licensing.ILicensingService
+
+# For native methods, see http://proguard.sourceforge.net/manual/examples.html#native
+-keepclasseswithmembers,allowshrinking class * {
+    native <methods>;
+}
+
+# Keep setters in Views so that animations can still work.
+-keepclassmembers public class * extends android.view.View {
+    void set*(***);
+    *** get*();
+}
+
+# We want to keep methods in Activity that could be used in the XML attribute onClick.
+-keepclassmembers class * extends android.app.Activity {
+    public void *(android.view.View);
+}
+
+# For enumeration classes, see http://proguard.sourceforge.net/manual/examples.html#enumerations
+-keepclassmembers enum  * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+-keepclassmembers class * extends android.os.Parcelable {
+    public static final ** CREATOR;
+}
+
+-keepclassmembers class **.R$* {
+    public static <fields>;
+}
+
+# Preserve annotated Javascript interface methods.
+-keepclassmembers class * {
+    @android.webkit.JavascriptInterface
+    <methods>;
+}
+
+# Understand the @Keep support annotation.
+-keep class android.support.annotation.Keep
+
+-keep class androidx.annotation.Keep
+
+-keep @android.support.annotation.Keep class * {
+    <fields>;
+    <methods>;
+}
+
+-keep @androidx.annotation.Keep class * {
+    <fields>;
+    <methods>;
+}
+
+-keepclasseswithmembers class * {
+    @android.support.annotation.Keep
+    <methods>;
+}
+
+-keepclasseswithmembers class * {
+    @androidx.annotation.Keep
+    <methods>;
+}
+
+-keepclasseswithmembers class * {
+    @android.support.annotation.Keep
+    <fields>;
+}
+
+-keepclasseswithmembers class * {
+    @androidx.annotation.Keep
+    <fields>;
+}
+
+-keepclasseswithmembers class * {
+    @android.support.annotation.Keep
+    <init>(...);
+}
+
+-keepclasseswithmembers class * {
+    @androidx.annotation.Keep
+    <init>(...);
+}
+
+# Referenced at D:\hockeydemo2\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:38
+-keep class com.example.willl.hockeydemo2.MainActivity {
+    <init>(...);
+}
+
+# Referenced at D:\hockeydemo2\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:28
+-keep class com.example.willl.hockeydemo2.MyApplication {
+    <init>(...);
+}
+
+# Referenced at D:\hockeydemo2\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:56
+-keep class com.example.willl.hockeydemo2.MyFeedBackActivity {
+    <init>(...);
+}
+
+# Referenced at D:\hockeydemo2\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:50
+-keep class com.example.willl.hockeydemo2.SecondActivity {
+    <init>(...);
+}
+
+# Referenced at D:\hockeydemo2\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:55
+-keep class com.example.willl.hockeydemo2.UpdateActivity {
+    <init>(...);
+}
+
+# Referenced at D:\hockeydemo2\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:152
+-keep class com.google.android.gms.common.api.GoogleApiActivity {
+    <init>(...);
+}
+
+# Referenced at D:\hockeydemo2\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:104
+-keep class com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver {
+    <init>(...);
+}
+
+# Referenced at D:\hockeydemo2\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:118
+-keep class com.google.android.gms.measurement.AppMeasurementJobService {
+    <init>(...);
+}
+
+# Referenced at D:\hockeydemo2\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:99
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver {
+    <init>(...);
+}
+
+# Referenced at D:\hockeydemo2\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:114
+-keep class com.google.android.gms.measurement.AppMeasurementService {
+    <init>(...);
+}
+
+# Referenced at D:\hockeydemo2\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:90
+-keep class com.google.firebase.components.ComponentDiscoveryService {
+    <init>(...);
+}
+
+# Referenced at D:\hockeydemo2\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:124
+-keep class com.google.firebase.iid.FirebaseInstanceIdReceiver {
+    <init>(...);
+}
+
+# Referenced at D:\hockeydemo2\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:138
+-keep class com.google.firebase.iid.FirebaseInstanceIdService {
+    <init>(...);
+}
+
+# Referenced at D:\hockeydemo2\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:83
+-keep class com.google.firebase.messaging.FirebaseMessagingService {
+    <init>(...);
+}
+
+# Referenced at D:\hockeydemo2\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:146
+-keep class com.google.firebase.provider.FirebaseInitProvider {
+    <init>(...);
+}
+
+# Referenced at D:\hockeydemo2\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:63
+-keep class com.microsoft.appcenter.push.PushReceiver {
+    <init>(...);
+}
+
+# Referenced at D:\hockeydemo2\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:74
+-keep class com.microsoft.appcenter.push.TokenService {
+    <init>(...);
+}
+
+# Referenced at D:\hockeydemo2\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:61
+-keep class net.hockeyapp.android.ExpiryInfoActivity {
+    <init>(...);
+}
+
+# Referenced at D:\hockeydemo2\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:58
+-keep class net.hockeyapp.android.FeedbackActivity {
+    <init>(...);
+}
+
+# Referenced at D:\hockeydemo2\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:60
+-keep class net.hockeyapp.android.LoginActivity {
+    <init>(...);
+}
+
+# Referenced at D:\hockeydemo2\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:59
+-keep class net.hockeyapp.android.PaintActivity {
+    <init>(...);
+}
+
+# Referenced at D:\hockeydemo2\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:57
+-keep class net.hockeyapp.android.UpdateActivity {
+    <init>(...);
+}
+
+# Referenced at D:\hockeydemo2\app\src\main\res\layout\activity_my_feed_back.xml:2
+-keep class android.support.constraint.ConstraintLayout {
+    <init>(...);
+}
+
+# Referenced at C:\Users\willl\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\b48f7e42af9b4475ed5eca7a18939277\res\layout\abc_alert_dialog_material.xml:41
+-keep class android.support.v4.widget.NestedScrollView {
+    <init>(...);
+}
+
+# Referenced at C:\Users\willl\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\b48f7e42af9b4475ed5eca7a18939277\res\layout\abc_select_dialog_material.xml:23
+-keep class android.support.v7.app.AlertController$RecycleListView {
+    <init>(...);
+}
+
+# Referenced at C:\Users\willl\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\b48f7e42af9b4475ed5eca7a18939277\res\layout\abc_action_menu_item_layout.xml:17
+-keep class android.support.v7.view.menu.ActionMenuItemView {
+    <init>(...);
+}
+
+# Referenced at C:\Users\willl\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\b48f7e42af9b4475ed5eca7a18939277\res\layout\abc_expanded_menu_layout.xml:17
+-keep class android.support.v7.view.menu.ExpandedMenuView {
+    <init>(...);
+}
+
+# Referenced at C:\Users\willl\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\b48f7e42af9b4475ed5eca7a18939277\res\layout\abc_popup_menu_item_layout.xml:17
+# Referenced at C:\Users\willl\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\b48f7e42af9b4475ed5eca7a18939277\res\layout\abc_list_menu_item_layout.xml:17
+# Referenced at C:\Users\willl\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\b48f7e42af9b4475ed5eca7a18939277\res\layout\abc_cascading_menu_item_layout.xml:20
+-keep class android.support.v7.view.menu.ListMenuItemView {
+    <init>(...);
+}
+
+# Referenced at C:\Users\willl\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\b48f7e42af9b4475ed5eca7a18939277\res\layout\abc_screen_toolbar.xml:27
+-keep class android.support.v7.widget.ActionBarContainer {
+    <init>(...);
+}
+
+# Referenced at C:\Users\willl\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\b48f7e42af9b4475ed5eca7a18939277\res\layout\abc_screen_toolbar.xml:43
+# Referenced at C:\Users\willl\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\b48f7e42af9b4475ed5eca7a18939277\res\layout\abc_action_mode_bar.xml:19
+-keep class android.support.v7.widget.ActionBarContextView {
+    <init>(...);
+}
+
+# Referenced at C:\Users\willl\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\b48f7e42af9b4475ed5eca7a18939277\res\layout\abc_screen_toolbar.xml:17
+-keep class android.support.v7.widget.ActionBarOverlayLayout {
+    <init>(...);
+}
+
+# Referenced at C:\Users\willl\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\b48f7e42af9b4475ed5eca7a18939277\res\layout\abc_action_menu_layout.xml:17
+-keep class android.support.v7.widget.ActionMenuView {
+    <init>(...);
+}
+
+# Referenced at C:\Users\willl\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\b48f7e42af9b4475ed5eca7a18939277\res\layout\abc_activity_chooser_view.xml:19
+-keep class android.support.v7.widget.ActivityChooserView$InnerLayout {
+    <init>(...);
+}
+
+# Referenced at C:\Users\willl\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\b48f7e42af9b4475ed5eca7a18939277\res\layout\abc_alert_dialog_material.xml:18
+-keep class android.support.v7.widget.AlertDialogLayout {
+    <init>(...);
+}
+
+# Referenced at C:\Users\willl\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\b48f7e42af9b4475ed5eca7a18939277\res\layout\abc_alert_dialog_button_bar_material.xml:26
+-keep class android.support.v7.widget.ButtonBarLayout {
+    <init>(...);
+}
+
+# Referenced at C:\Users\willl\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\b48f7e42af9b4475ed5eca7a18939277\res\layout\abc_screen_content_include.xml:19
+-keep class android.support.v7.widget.ContentFrameLayout {
+    <init>(...);
+}
+
+# Referenced at C:\Users\willl\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\b48f7e42af9b4475ed5eca7a18939277\res\layout\abc_alert_dialog_title_material.xml:45
+-keep class android.support.v7.widget.DialogTitle {
+    <init>(...);
+}
+
+# Referenced at C:\Users\willl\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\b48f7e42af9b4475ed5eca7a18939277\res\layout\abc_screen_simple_overlay_action_mode.xml:23
+-keep class android.support.v7.widget.FitWindowsFrameLayout {
+    <init>(...);
+}
+
+# Referenced at C:\Users\willl\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\b48f7e42af9b4475ed5eca7a18939277\res\layout\abc_screen_simple.xml:17
+# Referenced at C:\Users\willl\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\b48f7e42af9b4475ed5eca7a18939277\res\layout\abc_dialog_title_material.xml:22
+-keep class android.support.v7.widget.FitWindowsLinearLayout {
+    <init>(...);
+}
+
+# Referenced at D:\hockeydemo2\app\src\main\res\layout\activity_update.xml:2
+# Referenced at D:\hockeydemo2\app\src\main\res\layout\activity_second.xml:2
+# Referenced at D:\hockeydemo2\app\src\main\res\layout\activity_main.xml:2
+-keep class android.support.v7.widget.LinearLayoutCompat {
+    <init>(...);
+}
+
+# Referenced at C:\Users\willl\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\b48f7e42af9b4475ed5eca7a18939277\res\layout\abc_search_view.xml:75
+-keep class android.support.v7.widget.SearchView$SearchAutoComplete {
+    <init>(...);
+}
+
+# Referenced at C:\Users\willl\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\b48f7e42af9b4475ed5eca7a18939277\res\layout\abc_screen_toolbar.xml:36
+-keep class android.support.v7.widget.Toolbar {
+    <init>(...);
+}
+
+# Referenced at C:\Users\willl\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\b48f7e42af9b4475ed5eca7a18939277\res\layout\abc_screen_simple_overlay_action_mode.xml:32
+# Referenced at C:\Users\willl\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\b48f7e42af9b4475ed5eca7a18939277\res\layout\abc_screen_simple.xml:25
+-keep class android.support.v7.widget.ViewStubCompat {
+    <init>(...);
+}
+
+# Referenced at C:\Users\willl\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\b48f7e42af9b4475ed5eca7a18939277\res\layout\abc_alert_dialog_title_material.xml:56
+# Referenced at C:\Users\willl\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\b48f7e42af9b4475ed5eca7a18939277\res\layout\abc_alert_dialog_material.xml:52
+# Referenced at C:\Users\willl\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\b48f7e42af9b4475ed5eca7a18939277\res\layout\abc_alert_dialog_button_bar_material.xml:43
+-keep class android.widget.Space {
+    <init>(...);
+}
+
+# Referenced at C:\Users\willl\.gradle\caches\transforms-1\files-1.1\HockeySDK-5.1.1.aar\ca1eb83addbcb3e9c92d919c05565983\res\layout\hockeyapp_view_feedback_message.xml:50
+# Referenced at C:\Users\willl\.gradle\caches\transforms-1\files-1.1\HockeySDK-5.1.1.aar\ca1eb83addbcb3e9c92d919c05565983\res\layout\hockeyapp_activity_feedback.xml:58
+-keep class net.hockeyapp.android.views.AttachmentListView {
+    <init>(...);
+}
+
+# Referenced at D:\hockeydemo2\app\src\main\res\layout\activity_main.xml:16
+-keepclassmembers class * {
+    *** click1(...);
+}
+
+# Referenced at D:\hockeydemo2\app\src\main\res\layout\activity_second.xml:14
+# Referenced at D:\hockeydemo2\app\src\main\res\layout\activity_main.xml:26
+-keepclassmembers class * {
+    *** click2(...);
+}
+
+# Referenced at D:\hockeydemo2\app\src\main\res\layout\activity_second.xml:20
+# Referenced at D:\hockeydemo2\app\src\main\res\layout\activity_main.xml:21
+-keepclassmembers class * {
+    *** click3(...);
+}
+
+# Referenced at D:\hockeydemo2\app\src\main\res\layout\activity_main.xml:31
+-keepclassmembers class * {
+    *** click4(...);
+}
+
+# Referenced at D:\hockeydemo2\app\src\main\res\layout\activity_main.xml:37
+-keepclassmembers class * {
+    *** click5(...);
+}
+
+# Referenced at D:\hockeydemo2\app\src\main\res\layout\activity_main.xml:43
+-keepclassmembers class * {
+    *** click6(...);
+}
+
+# Copyright (C) 2018 The Android Open Source Project
+# 
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+# 
+#      http://www.apache.org/licenses/LICENSE-2.0
+# 
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+# Ensure that reflectively-loaded inflater is not obfuscated. This can be
+# removed when we stop supporting AAPT1 builds.
+-keep,allowshrinking class android.support.v7.app.AppCompatViewInflater
+
+# aapt is not able to read app::actionViewClass and app:actionProviderClass to produce proguard
+# keep rules. Add a commonly used SearchView to the keep list until b/109831488 is resolved.
+-keep class android.support.v7.widget.SearchView {
+    <init>(...);
+}
+
+-keepclassmembers class net.hockeyapp.android.UpdateFragment {
+    <fields>;
+    <methods>;
+}
+
+# We keep all fields for every generated proto file as the runtime uses
+# reflection over them that ProGuard cannot detect. Without this keep
+# rule, fields may be removed that would cause runtime failures.
+-keepclassmembers class * extends com.google.android.gms.internal.measurement.zzzv {
+    <fields>;
+}
+
+# We keep all fields for every generated proto file as the runtime uses
+# reflection over them that ProGuard cannot detect. Without this keep
+# rule, fields may be removed that would cause runtime failures.
+-keepclassmembers class * extends com.google.android.gms.internal.measurement.zzzv {
+    <fields>;
+}
+
+# We keep all fields for every generated proto file as the runtime uses
+# reflection over them that ProGuard cannot detect. Without this keep
+# rule, fields may be removed that would cause runtime failures.
+-keepclassmembers class * extends com.google.android.gms.internal.measurement.zzzv {
+    <fields>;
+}
+
+# b/35135904 Ensure that proguard will not strip the mResultGuardian.
+-keepclassmembers class com.google.android.gms.common.api.internal.BasePendingResult {
+    com.google.android.gms.common.api.internal.BasePendingResult$ReleasableResultGuardian mResultGuardian;
+}
+
+# Proguard flags for consumers of the Google Play services SDK
+# https://developers.google.com/android/guides/setup#add_google_play_services_to_your_project
+# Keep SafeParcelable NULL value, needed for reflection by DowngradeableSafeParcel
+-keepclassmembers public class com.google.android.gms.common.internal.safeparcel.SafeParcelable {
+    public static final *** NULL;
+}
+
+# Needed for Parcelable/SafeParcelable classes & their creators to not get renamed, as they are
+# found via reflection.
+-keep class com.google.android.gms.common.internal.ReflectedParcelable
+
+-keep,allowshrinking class * extends com.google.android.gms.common.internal.ReflectedParcelable
+
+-keepclassmembers class * extends android.os.Parcelable {
+    public static final *** CREATOR;
+}
+
+# Keep the classes/members we need for client functionality.
+-keep @interface  android.support.annotation.Keep
+
+-keep @android.support.annotation.Keep class *
+
+-keepclasseswithmembers class * {
+    @android.support.annotation.Keep
+    <fields>;
+}
+
+-keepclasseswithmembers class * {
+    @android.support.annotation.Keep
+    <methods>;
+}
+
+# Keep the names of classes/members we need for client functionality.
+-keep @interface  com.google.android.gms.common.annotation.KeepName
+
+-keep,allowshrinking @com.google.android.gms.common.annotation.KeepName class *
+
+-keepclassmembers,allowshrinking class * {
+    @com.google.android.gms.common.annotation.KeepName
+    <fields>;
+    @com.google.android.gms.common.annotation.KeepName
+    <methods>;
+}
+
+# Keep Dynamite API entry points
+-keep @interface  com.google.android.gms.common.util.DynamiteApi
+
+-keep @com.google.android.gms.common.util.DynamiteApi public class * {
+    public <fields>;
+    public <methods>;
+}
+
+# Copyright (C) 2016 The Android Open Source Project
+# 
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+# 
+#      http://www.apache.org/licenses/LICENSE-2.0
+# 
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+# keep setters in VectorDrawables so that animations can still work.
+-keepclassmembers class android.support.graphics.drawable.VectorDrawableCompat$* {
+    void set*(***);
+    *** get*();
+}
+
+# Copyright (C) 2016 The Android Open Source Project
+# 
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+# 
+#      http://www.apache.org/licenses/LICENSE-2.0
+# 
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+# CoordinatorLayout resolves the behaviors of its child components with reflection.
+-keep public class * extends android.support.design.widget.CoordinatorLayout$Behavior {
+    public <init>(android.content.Context,android.util.AttributeSet);
+    public <init>();
+}
+
+# Copyright (C) 2017 The Android Open Source Project
+# 
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+# 
+#      http://www.apache.org/licenses/LICENSE-2.0
+# 
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+# Prevent Parcelable objects from being removed or renamed.
+-keep class android.support.v4.media.** extends android.os.Parcelable {
+    public static final android.os.Parcelable$Creator *;
+}
+
+# Prevent Parcelable objects from being removed or renamed.
+-keep class android.support.mediacompat.** extends android.os.Parcelable {
+    public static final android.os.Parcelable$Creator *;
+}
+
+-keep class android.support.v4.media.Audio* extends android.os.Parcelable {
+    public static final android.os.Parcelable$Creator *;
+}
+
+-keep class android.support.v4.media.MediaBrowserCompatUtils* extends android.os.Parcelable {
+    public static final android.os.Parcelable$Creator *;
+}
+
+-keep class android.support.v4.media.MediaBrowserProtocol* extends android.os.Parcelable {
+    public static final android.os.Parcelable$Creator *;
+}
+
+-keep class android.support.v4.media.MediaBrowserService* extends android.os.Parcelable {
+    public static final android.os.Parcelable$Creator *;
+}
+
+-keep class android.support.v4.media.Volume* extends android.os.Parcelable {
+    public static final android.os.Parcelable$Creator *;
+}
+
+-keep class android.support.v4.media.app.** extends android.os.Parcelable {
+    public static final android.os.Parcelable$Creator *;
+}
+
+-keep class android.support.v4.media.session.MediaButton* extends android.os.Parcelable {
+    public static final android.os.Parcelable$Creator *;
+}
+
+# aapt2 is not (yet) keeping FQCNs defined in the appComponentFactory <application> attribute
+-keep class android.support.v4.app.CoreComponentFactory
+
+-keep public class * extends androidx.versionedparcelable.VersionedParcelable
+
+-keep public class android.support.**Parcelizer {
+    <fields>;
+    <methods>;
+}
+
+-keep public class androidx.**Parcelizer {
+    <fields>;
+    <methods>;
+}
+
+-keep public class androidx.versionedparcelable.ParcelImpl
+
+-keepclassmembers enum  android.arch.lifecycle.Lifecycle$Event {
+    <fields>;
+}
+
+-keep class * extends android.arch.lifecycle.LifecycleObserver
+
+-keep class * extends android.arch.lifecycle.GeneratedAdapter {
+    <init>(...);
+}
+
+-keepclassmembers class ** {
+    @android.arch.lifecycle.OnLifecycleEvent
+    <fields>;
+    @android.arch.lifecycle.OnLifecycleEvent
+    <methods>;
+}
+
+-keep class * extends android.arch.lifecycle.ViewModel {
+    <init>();
+}
+
+-keepclasseswithmembers class * extends com.microsoft.appcenter.AppCenterService {
+    public static ** getInstance();
+}
+
+-keepclassmembers class * extends javax.net.ssl.SSLSocketFactory {
+    private final javax.net.ssl.SSLSocketFactory delegate;
+}
