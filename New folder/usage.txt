@@ -1,0 +1,24 @@
+com.ly.demo.Demo:
+    11:12:public void setTest(java.lang.String)
+com.ly.demo.Itest:
+    13:13:public com.ly.demo.next.Next getNext()
+com.ly.demo.Itest$inner:
+    private java.lang.String age
+    51:52:public void setName(java.lang.String)
+    54:54:public java.lang.String getAge()
+    57:58:public void setAge(java.lang.String)
+    60:60:public com.ly.demo.Itest getItest()
+    63:64:public void setItest(com.ly.demo.Itest)
+com.ly.demo.MyAnnotation:
+    public abstract java.lang.String name()
+com.ly.demo.next.Father:
+    17:18:public void say()
+    30:30:public java.lang.Integer getAge()
+com.ly.demo.next.Next:
+    private java.lang.String name
+    private java.lang.Integer age
+    7:7:public java.lang.String getName()
+    10:11:public void setName(java.lang.String)
+    13:13:public java.lang.Integer getAge()
+    16:17:public void setAge(java.lang.Integer)
+com.ly.demo.next.Son

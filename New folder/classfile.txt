@@ -1,0 +1,1448 @@
+_____________________________________________________________________
+- Program class: com/ly/demo/a
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.ly.demo.a extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 34):
+  - Class [com/ly/demo/a]
+  - Class [java/io/PrintStream]
+  - Class [java/lang/Object]
+  - Class [java/lang/System]
+  - Fieldref [com/ly/demo/a.a Ljava/lang/String;]
+  - Fieldref [java/lang/System.out Ljava/io/PrintStream;]
+  - Methodref [com/ly/demo/a.a ()Ljava/lang/String;]
+  - Methodref [java/io/PrintStream.println (Ljava/lang/String;)V]
+  - Methodref [java/lang/Object.<init> ()V]
+  - NameAndType [<init> ()V]
+  - NameAndType [a ()Ljava/lang/String;]
+  - NameAndType [a Ljava/lang/String;]
+  - NameAndType [out Ljava/io/PrintStream;]
+  - NameAndType [println (Ljava/lang/String;)V]
+  - Utf8 [()Ljava/lang/String;]
+  - Utf8 [()V]
+  - Utf8 [(Ljava/lang/String;)V]
+  - Utf8 [<init>]
+  - Utf8 [Code]
+  - Utf8 [Lcom/ly/demo/a;]
+  - Utf8 [Ljava/io/PrintStream;]
+  - Utf8 [Ljava/lang/String;]
+  - Utf8 [LocalVariableTable]
+  - Utf8 [a]
+  - Utf8 [b]
+  - Utf8 [com/ly/demo/a]
+  - Utf8 [java/io/PrintStream]
+  - Utf8 [java/lang/Object]
+  - Utf8 [java/lang/System]
+  - Utf8 [out]
+  - Utf8 [println]
+  - Utf8 [test]
+  - Utf8 [this]
+
+Fields (count = 1):
+  - Field:        a Ljava/lang/String;
+    Access flags: 0x2
+      = private java.lang.String a
+
+Methods (count = 3):
+  - Method:       a()Ljava/lang/String;
+    Access flags: 0x1
+      = public java.lang.String a()
+    Class member attributes (count = 1):
+    - Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #5
+        - Fieldref [com/ly/demo/a.a Ljava/lang/String;]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      - Local variable table attribute (count = 1)
+        v0: 0 -> 5 [Lcom/ly/demo/a; this]
+  - Method:       <init>(Ljava/lang/String;)V
+    Access flags: 0x1
+      = public a(java.lang.String)
+    Class member attributes (count = 1):
+    - Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] invokespecial #9
+        - Methodref [java/lang/Object.<init> ()V]
+      [4] aload_0 v0
+      [5] aload_1 v1
+      [6] putfield #5
+        - Fieldref [com/ly/demo/a.a Ljava/lang/String;]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      - Local variable table attribute (count = 2)
+        v0: 0 -> 10 [Lcom/ly/demo/a; this]
+        v1: 0 -> 10 [Ljava/lang/String; test]
+  - Method:       b()V
+    Access flags: 0x1
+      = public void b()
+    Class member attributes (count = 1):
+    - Code attribute instructions (code length = 11, locals = 1, stack = 2):
+      [0] getstatic #6
+        - Fieldref [java/lang/System.out Ljava/io/PrintStream;]
+      [3] aload_0 v0
+      [4] invokevirtual #7
+        - Methodref [com/ly/demo/a.a ()Ljava/lang/String;]
+      [7] invokevirtual #8
+        - Methodref [java/io/PrintStream.println (Ljava/lang/String;)V]
+      [10] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      - Local variable table attribute (count = 1)
+        v0: 0 -> 11 [Lcom/ly/demo/a; this]
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
+- Program class: com/ly/demo/b
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.ly.demo.b extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 62):
+  - Integer [90]
+  - Class [com/ly/demo/b]
+  - Class [com/ly/demo/b$a]
+  - Class [java/lang/Object]
+  - Class [java/lang/String]
+  - Class [java/lang/StringBuilder]
+  - Fieldref [com/ly/demo/b.a Ljava/lang/String;]
+  - Fieldref [com/ly/demo/b.b Ljava/lang/String;]
+  - Fieldref [com/ly/demo/b.c Ljava/lang/Integer;]
+  - Fieldref [com/ly/demo/b.d Lcom/ly/demo/a/b;]
+  - Methodref [java/lang/Object.<init> ()V]
+  - Methodref [java/lang/String.valueOf (Ljava/lang/Object;)Ljava/lang/String;]
+  - Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+  - Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
+  - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+  - NameAndType [<init> ()V]
+  - NameAndType [<init> (Ljava/lang/String;)V]
+  - NameAndType [a Ljava/lang/String;]
+  - NameAndType [append (I)Ljava/lang/StringBuilder;]
+  - NameAndType [b Ljava/lang/String;]
+  - NameAndType [c Ljava/lang/Integer;]
+  - NameAndType [d Lcom/ly/demo/a/b;]
+  - NameAndType [toString ()Ljava/lang/String;]
+  - NameAndType [valueOf (Ljava/lang/Object;)Ljava/lang/String;]
+  - Utf8 [()Ljava/lang/Integer;]
+  - Utf8 [()Ljava/lang/String;]
+  - Utf8 [()V]
+  - Utf8 [(I)Ljava/lang/StringBuilder;]
+  - Utf8 [(Lcom/ly/demo/a/b;)V]
+  - Utf8 [(Ljava/lang/Integer;)V]
+  - Utf8 [(Ljava/lang/Object;)Ljava/lang/String;]
+  - Utf8 [(Ljava/lang/String;)V]
+  - Utf8 [<init>]
+  - Utf8 [Code]
+  - Utf8 [I]
+  - Utf8 [InnerClasses]
+  - Utf8 [Lcom/ly/demo/a/b;]
+  - Utf8 [Lcom/ly/demo/b;]
+  - Utf8 [Lcom/ly/demo/c;]
+  - Utf8 [Ljava/lang/Integer;]
+  - Utf8 [Ljava/lang/String;]
+  - Utf8 [LocalVariableTable]
+  - Utf8 [RuntimeVisibleAnnotations]
+  - Utf8 [a]
+  - Utf8 [append]
+  - Utf8 [b]
+  - Utf8 [c]
+  - Utf8 [com/ly/demo/b]
+  - Utf8 [com/ly/demo/b$a]
+  - Utf8 [count]
+  - Utf8 [d]
+  - Utf8 [i]
+  - Utf8 [java/lang/Object]
+  - Utf8 [java/lang/String]
+  - Utf8 [java/lang/StringBuilder]
+  - Utf8 [name]
+  - Utf8 [next]
+  - Utf8 [this]
+  - Utf8 [time]
+  - Utf8 [toString]
+  - Utf8 [valueOf]
+
+Fields (count = 4):
+  - Field:        a Ljava/lang/String;
+    Access flags: 0x2
+      = private java.lang.String a
+  - Field:        b Ljava/lang/String;
+    Access flags: 0x2
+      = private java.lang.String b
+  - Field:        c Ljava/lang/Integer;
+    Access flags: 0x2
+      = private java.lang.Integer c
+  - Field:        d Lcom/ly/demo/a/b;
+    Access flags: 0x2
+      = private com.ly.demo.a.b d
+
+Methods (count = 8):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public b()
+    Class member attributes (count = 1):
+    - Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #11
+        - Methodref [java/lang/Object.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      - Local variable table attribute (count = 1)
+        v0: 0 -> 5 [Lcom/ly/demo/b; this]
+  - Method:       a(Lcom/ly/demo/a/b;)V
+    Access flags: 0x1
+      = public void a(com.ly.demo.a.b)
+    Class member attributes (count = 1):
+    - Code attribute instructions (code length = 6, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #10
+        - Fieldref [com/ly/demo/b.d Lcom/ly/demo/a/b;]
+      [5] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      - Local variable table attribute (count = 2)
+        v0: 0 -> 6 [Lcom/ly/demo/b; this]
+        v1: 0 -> 6 [Lcom/ly/demo/a/b; next]
+  - Method:       a()Ljava/lang/String;
+    Access flags: 0x1
+      = public java.lang.String a()
+    Class member attributes (count = 1):
+    - Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #7
+        - Fieldref [com/ly/demo/b.a Ljava/lang/String;]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      - Local variable table attribute (count = 1)
+        v0: 0 -> 5 [Lcom/ly/demo/b; this]
+  - Method:       a(Ljava/lang/String;)V
+    Access flags: 0x1
+      = public void a(java.lang.String)
+    Class member attributes (count = 1):
+    - Code attribute instructions (code length = 6, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #7
+        - Fieldref [com/ly/demo/b.a Ljava/lang/String;]
+      [5] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      - Local variable table attribute (count = 2)
+        v0: 0 -> 6 [Lcom/ly/demo/b; this]
+        v1: 0 -> 6 [Ljava/lang/String; time]
+  - Method:       b()Ljava/lang/String;
+    Access flags: 0x1
+      = public java.lang.String b()
+    Class member attributes (count = 1):
+    - Code attribute instructions (code length = 27, locals = 2, stack = 3):
+      [0] bipush 99
+      [2] iconst_0
+      [3] idiv
+      [4] istore_1 v1
+      [5] new #6
+        - Class [java/lang/StringBuilder]
+      [8] dup
+      [9] aload_0 v0
+      [10] getfield #8
+        - Fieldref [com/ly/demo/b.b Ljava/lang/String;]
+      [13] invokestatic #12
+        - Methodref [java/lang/String.valueOf (Ljava/lang/Object;)Ljava/lang/String;]
+      [16] invokespecial #13
+        - Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+      [19] iload_1 v1
+      [20] invokevirtual #14
+        - Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
+      [23] invokevirtual #15
+        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [26] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      - Local variable table attribute (count = 2)
+        v0: 0 -> 27 [Lcom/ly/demo/b; this]
+        v1: 5 -> 27 [I i]
+  - Method:       b(Ljava/lang/String;)V
+    Access flags: 0x1
+      = public void b(java.lang.String)
+    Class member attributes (count = 1):
+    - Code attribute instructions (code length = 6, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #8
+        - Fieldref [com/ly/demo/b.b Ljava/lang/String;]
+      [5] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      - Local variable table attribute (count = 2)
+        v0: 0 -> 6 [Lcom/ly/demo/b; this]
+        v1: 0 -> 6 [Ljava/lang/String; name]
+  - Method:       c()Ljava/lang/Integer;
+    Access flags: 0x1
+      = public java.lang.Integer c()
+    Class member attributes (count = 1):
+    - Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #9
+        - Fieldref [com/ly/demo/b.c Ljava/lang/Integer;]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      - Local variable table attribute (count = 1)
+        v0: 0 -> 5 [Lcom/ly/demo/b; this]
+  - Method:       a(Ljava/lang/Integer;)V
+    Access flags: 0x1
+      = public void a(java.lang.Integer)
+    Class member attributes (count = 1):
+    - Code attribute instructions (code length = 6, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #9
+        - Fieldref [com/ly/demo/b.c Ljava/lang/Integer;]
+      [5] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      - Local variable table attribute (count = 2)
+        v0: 0 -> 6 [Lcom/ly/demo/b; this]
+        v1: 0 -> 6 [Ljava/lang/Integer; count]
+
+Class file attributes (count = 2):
+  - Inner classes attribute (count = 1)
+    - InnerClassesInfo:
+      Access flags:  0x0 = 
+      - Class [com/ly/demo/b$a]
+      - Class [com/ly/demo/b]
+      - Utf8 [a]
+  - Runtime visible annotations attribute:
+    - Annotation [Lcom/ly/demo/c;]:
+      - Constant element value [a '73']
+        - Integer [90]
+
+_____________________________________________________________________
+- Program class: com/ly/demo/b$a
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x20
+    = class com.ly.demo.b$a extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 30):
+  - Class [com/ly/demo/b]
+  - Class [com/ly/demo/b$a]
+  - Class [java/lang/Object]
+  - Fieldref [com/ly/demo/b$a.a Lcom/ly/demo/b;]
+  - Fieldref [com/ly/demo/b$a.b Ljava/lang/String;]
+  - Fieldref [com/ly/demo/b$a.c Lcom/ly/demo/b;]
+  - Methodref [java/lang/Object.<init> ()V]
+  - NameAndType [<init> ()V]
+  - NameAndType [a Lcom/ly/demo/b;]
+  - NameAndType [b Ljava/lang/String;]
+  - NameAndType [c Lcom/ly/demo/b;]
+  - Utf8 [()Ljava/lang/String;]
+  - Utf8 [()V]
+  - Utf8 [(Lcom/ly/demo/b;Lcom/ly/demo/b;)V]
+  - Utf8 [<init>]
+  - Utf8 [Code]
+  - Utf8 [InnerClasses]
+  - Utf8 [Lcom/ly/demo/b$a;]
+  - Utf8 [Lcom/ly/demo/b;]
+  - Utf8 [Ljava/lang/String;]
+  - Utf8 [LocalVariableTable]
+  - Utf8 [a]
+  - Utf8 [b]
+  - Utf8 [c]
+  - Utf8 [com/ly/demo/b]
+  - Utf8 [com/ly/demo/b$a]
+  - Utf8 [itest]
+  - Utf8 [java/lang/Object]
+  - Utf8 [this]
+
+Fields (count = 3):
+  - Field:        b Ljava/lang/String;
+    Access flags: 0x2
+      = private java.lang.String b
+  - Field:        c Lcom/ly/demo/b;
+    Access flags: 0x2
+      = private com.ly.demo.b c
+  - Field:        a Lcom/ly/demo/b;
+    Access flags: 0x1010
+      = final synthetic com.ly.demo.b a
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/ly/demo/b;Lcom/ly/demo/b;)V
+    Access flags: 0x1
+      = public b$a(com.ly.demo.b,com.ly.demo.b)
+    Class member attributes (count = 1):
+    - Code attribute instructions (code length = 15, locals = 3, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #4
+        - Fieldref [com/ly/demo/b$a.a Lcom/ly/demo/b;]
+      [5] aload_0 v0
+      [6] invokespecial #7
+        - Methodref [java/lang/Object.<init> ()V]
+      [9] aload_0 v0
+      [10] aload_2 v2
+      [11] putfield #6
+        - Fieldref [com/ly/demo/b$a.c Lcom/ly/demo/b;]
+      [14] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      - Local variable table attribute (count = 2)
+        v0: 0 -> 15 [Lcom/ly/demo/b$a; this]
+        v2: 0 -> 15 [Lcom/ly/demo/b; itest]
+  - Method:       a()Ljava/lang/String;
+    Access flags: 0x1
+      = public java.lang.String a()
+    Class member attributes (count = 1):
+    - Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #5
+        - Fieldref [com/ly/demo/b$a.b Ljava/lang/String;]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      - Local variable table attribute (count = 1)
+        v0: 0 -> 5 [Lcom/ly/demo/b$a; this]
+
+Class file attributes (count = 1):
+  - Inner classes attribute (count = 1)
+    - InnerClassesInfo:
+      Access flags:  0x0 = 
+      - Class [com/ly/demo/b$a]
+      - Class [com/ly/demo/b]
+      - Utf8 [a]
+
+_____________________________________________________________________
+- Program class: com/ly/demo/c
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x2601
+    = @ public @interface com.ly.demo.c extends java.lang.Object
+
+Interfaces (count = 1):
+  - Class [java/lang/annotation/Annotation]
+
+Constant Pool (count = 17):
+  - Class [com/ly/demo/c]
+  - Class [java/lang/Object]
+  - Class [java/lang/annotation/Annotation]
+  - Utf8 [()I]
+  - Utf8 [Ljava/lang/annotation/ElementType;]
+  - Utf8 [Ljava/lang/annotation/Retention;]
+  - Utf8 [Ljava/lang/annotation/RetentionPolicy;]
+  - Utf8 [Ljava/lang/annotation/Target;]
+  - Utf8 [RUNTIME]
+  - Utf8 [RuntimeVisibleAnnotations]
+  - Utf8 [TYPE]
+  - Utf8 [a]
+  - Utf8 [com/ly/demo/c]
+  - Utf8 [java/lang/Object]
+  - Utf8 [java/lang/annotation/Annotation]
+  - Utf8 [value]
+
+Fields (count = 0):
+
+Methods (count = 1):
+  - Method:       a()I
+    Access flags: 0x401
+      = public abstract int a()
+
+Class file attributes (count = 1):
+  - Runtime visible annotations attribute:
+    - Annotation [Ljava/lang/annotation/Retention;]:
+      - Enum constant element value [value, Ljava/lang/annotation/RetentionPolicy;, RUNTIME]
+    - Annotation [Ljava/lang/annotation/Target;]:
+      - Array element value [value]:
+        + Enum constant element value [(default), Ljava/lang/annotation/ElementType;, TYPE]
+
+_____________________________________________________________________
+- Program class: com/ly/demo/d
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.ly.demo.d extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 157):
+  - String [yyyy-mm-dd]
+  - Class [com/ly/demo/a/b]
+  - Class [com/ly/demo/b]
+  - Class [com/ly/demo/b$a]
+  - Class [com/ly/demo/c]
+  - Class [com/ly/demo/d]
+  - Class [java/io/PrintStream]
+  - Class [java/lang/Class]
+  - Class [java/lang/Integer]
+  - Class [java/lang/Object]
+  - Class [java/lang/String]
+  - Class [java/lang/StringBuilder]
+  - Class [java/lang/System]
+  - Class [java/text/SimpleDateFormat]
+  - Class [java/util/ArrayList]
+  - Class [java/util/Date]
+  - Class [java/util/Iterator]
+  - Class [java/util/List]
+  - Fieldref [com/ly/demo/d.a Ljava/util/List;]
+  - Fieldref [java/lang/System.out Ljava/io/PrintStream;]
+  - Methodref [com/ly/demo/a/b.<init> ()V]
+  - Methodref [com/ly/demo/b.<init> ()V]
+  - Methodref [com/ly/demo/b.a ()Ljava/lang/String;]
+  - Methodref [com/ly/demo/b.a (Lcom/ly/demo/a/b;)V]
+  - Methodref [com/ly/demo/b.a (Ljava/lang/Integer;)V]
+  - Methodref [com/ly/demo/b.a (Ljava/lang/String;)V]
+  - Methodref [com/ly/demo/b.b ()Ljava/lang/String;]
+  - Methodref [com/ly/demo/b.b (Ljava/lang/String;)V]
+  - Methodref [com/ly/demo/b.c ()Ljava/lang/Integer;]
+  - Methodref [com/ly/demo/b$a.<init> (Lcom/ly/demo/b;Lcom/ly/demo/b;)V]
+  - Methodref [com/ly/demo/b$a.a ()Ljava/lang/String;]
+  - Methodref [com/ly/demo/d.a ()Ljava/lang/String;]
+  - Methodref [com/ly/demo/d.a (Lcom/ly/demo/b;)Ljava/lang/Integer;]
+  - Methodref [java/io/PrintStream.println (Ljava/lang/String;)V]
+  - Methodref [java/lang/Class.getAnnotation (Ljava/lang/Class;)Ljava/lang/annotation/Annotation;]
+  - Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
+  - Methodref [java/lang/Object.<init> ()V]
+  - Methodref [java/lang/Object.getClass ()Ljava/lang/Class;]
+  - Methodref [java/lang/String.valueOf (I)Ljava/lang/String;]
+  - Methodref [java/lang/String.valueOf (Ljava/lang/Object;)Ljava/lang/String;]
+  - Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+  - Methodref [java/lang/StringBuilder.append (Ljava/lang/Object;)Ljava/lang/StringBuilder;]
+  - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+  - Methodref [java/text/SimpleDateFormat.<init> (Ljava/lang/String;)V]
+  - Methodref [java/text/SimpleDateFormat.format (Ljava/util/Date;)Ljava/lang/String;]
+  - Methodref [java/util/ArrayList.<init> ()V]
+  - Methodref [java/util/Date.<init> ()V]
+  - InterfaceMethodref [com/ly/demo/c.a ()I]
+  - InterfaceMethodref [java/util/Iterator.hasNext ()Z]
+  - InterfaceMethodref [java/util/Iterator.next ()Ljava/lang/Object;]
+  - InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
+  - InterfaceMethodref [java/util/List.iterator ()Ljava/util/Iterator;]
+  - NameAndType [<init> ()V]
+  - NameAndType [<init> (Lcom/ly/demo/b;Lcom/ly/demo/b;)V]
+  - NameAndType [<init> (Ljava/lang/String;)V]
+  - NameAndType [a ()I]
+  - NameAndType [a ()Ljava/lang/String;]
+  - NameAndType [a (Lcom/ly/demo/a/b;)V]
+  - NameAndType [a (Lcom/ly/demo/b;)Ljava/lang/Integer;]
+  - NameAndType [a (Ljava/lang/Integer;)V]
+  - NameAndType [a (Ljava/lang/String;)V]
+  - NameAndType [a Ljava/util/List;]
+  - NameAndType [add (Ljava/lang/Object;)Z]
+  - NameAndType [append (Ljava/lang/Object;)Ljava/lang/StringBuilder;]
+  - NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  - NameAndType [b ()Ljava/lang/String;]
+  - NameAndType [b (Ljava/lang/String;)V]
+  - NameAndType [c ()Ljava/lang/Integer;]
+  - NameAndType [format (Ljava/util/Date;)Ljava/lang/String;]
+  - NameAndType [getAnnotation (Ljava/lang/Class;)Ljava/lang/annotation/Annotation;]
+  - NameAndType [getClass ()Ljava/lang/Class;]
+  - NameAndType [hasNext ()Z]
+  - NameAndType [iterator ()Ljava/util/Iterator;]
+  - NameAndType [next ()Ljava/lang/Object;]
+  - NameAndType [out Ljava/io/PrintStream;]
+  - NameAndType [println (Ljava/lang/String;)V]
+  - NameAndType [toString ()Ljava/lang/String;]
+  - NameAndType [valueOf (I)Ljava/lang/Integer;]
+  - NameAndType [valueOf (I)Ljava/lang/String;]
+  - NameAndType [valueOf (Ljava/lang/Object;)Ljava/lang/String;]
+  - Utf8 [()I]
+  - Utf8 [()Ljava/lang/Class;]
+  - Utf8 [()Ljava/lang/Integer;]
+  - Utf8 [()Ljava/lang/Object;]
+  - Utf8 [()Ljava/lang/String;]
+  - Utf8 [()Ljava/util/Iterator;]
+  - Utf8 [()V]
+  - Utf8 [()Z]
+  - Utf8 [(I)Ljava/lang/Integer;]
+  - Utf8 [(I)Ljava/lang/String;]
+  - Utf8 [(Lcom/ly/demo/a/b;)V]
+  - Utf8 [(Lcom/ly/demo/b;)Ljava/lang/Integer;]
+  - Utf8 [(Lcom/ly/demo/b;Lcom/ly/demo/b;)V]
+  - Utf8 [(Ljava/lang/Class;)Ljava/lang/annotation/Annotation;]
+  - Utf8 [(Ljava/lang/Integer;)V]
+  - Utf8 [(Ljava/lang/Object;)Ljava/lang/String;]
+  - Utf8 [(Ljava/lang/Object;)Ljava/lang/StringBuilder;]
+  - Utf8 [(Ljava/lang/Object;)Z]
+  - Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  - Utf8 [(Ljava/lang/String;)V]
+  - Utf8 [(Ljava/util/Date;)Ljava/lang/String;]
+  - Utf8 [<init>]
+  - Utf8 [Code]
+  - Utf8 [I]
+  - Utf8 [InnerClasses]
+  - Utf8 [Lcom/ly/demo/b$a;]
+  - Utf8 [Lcom/ly/demo/b;]
+  - Utf8 [Lcom/ly/demo/c;]
+  - Utf8 [Lcom/ly/demo/d;]
+  - Utf8 [Ljava/io/PrintStream;]
+  - Utf8 [Ljava/text/SimpleDateFormat;]
+  - Utf8 [Ljava/util/List;]
+  - Utf8 [Ljava/util/List<Lcom/ly/demo/b;>;]
+  - Utf8 [LocalVariableTable]
+  - Utf8 [Signature]
+  - Utf8 [StackMapTable]
+  - Utf8 [a]
+  - Utf8 [add]
+  - Utf8 [append]
+  - Utf8 [b]
+  - Utf8 [c]
+  - Utf8 [com/ly/demo/a/b]
+  - Utf8 [com/ly/demo/b]
+  - Utf8 [com/ly/demo/b$a]
+  - Utf8 [com/ly/demo/c]
+  - Utf8 [com/ly/demo/d]
+  - Utf8 [format]
+  - Utf8 [getAnnotation]
+  - Utf8 [getClass]
+  - Utf8 [hasNext]
+  - Utf8 [i]
+  - Utf8 [in]
+  - Utf8 [iterator]
+  - Utf8 [itest]
+  - Utf8 [java/io/PrintStream]
+  - Utf8 [java/lang/Class]
+  - Utf8 [java/lang/Integer]
+  - Utf8 [java/lang/Object]
+  - Utf8 [java/lang/String]
+  - Utf8 [java/lang/StringBuilder]
+  - Utf8 [java/lang/System]
+  - Utf8 [java/text/SimpleDateFormat]
+  - Utf8 [java/util/ArrayList]
+  - Utf8 [java/util/Date]
+  - Utf8 [java/util/Iterator]
+  - Utf8 [java/util/List]
+  - Utf8 [my]
+  - Utf8 [next]
+  - Utf8 [out]
+  - Utf8 [println]
+  - Utf8 [simpleDateFormat]
+  - Utf8 [this]
+  - Utf8 [toString]
+  - Utf8 [valueOf]
+  - Utf8 [yyyy-mm-dd]
+
+Fields (count = 1):
+  - Field:        a Ljava/util/List;
+    Access flags: 0x2
+      = private java.util.List a
+    Class member attributes (count = 1):
+    - Signature attribute:
+      - Utf8 [Ljava/util/List<Lcom/ly/demo/b;>;]
+
+Methods (count = 5):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public d()
+    Class member attributes (count = 1):
+    - Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #37
+        - Methodref [java/lang/Object.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      - Local variable table attribute (count = 1)
+        v0: 0 -> 5 [Lcom/ly/demo/d; this]
+  - Method:       a()Ljava/lang/String;
+    Access flags: 0x1
+      = public java.lang.String a()
+    Class member attributes (count = 1):
+    - Code attribute instructions (code length = 22, locals = 2, stack = 3):
+      [0] new #14
+        - Class [java/text/SimpleDateFormat]
+      [3] dup
+      [4] ldc #1
+        - String [yyyy-mm-dd]
+      [6] invokespecial #45
+        - Methodref [java/text/SimpleDateFormat.<init> (Ljava/lang/String;)V]
+      [9] astore_1 v1
+      [10] aload_1 v1
+      [11] new #16
+        - Class [java/util/Date]
+      [14] dup
+      [15] invokespecial #48
+        - Methodref [java/util/Date.<init> ()V]
+      [18] invokevirtual #46
+        - Methodref [java/text/SimpleDateFormat.format (Ljava/util/Date;)Ljava/lang/String;]
+      [21] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      - Local variable table attribute (count = 2)
+        v0: 0 -> 22 [Lcom/ly/demo/d; this]
+        v1: 10 -> 22 [Ljava/text/SimpleDateFormat; simpleDateFormat]
+  - Method:       b()V
+    Access flags: 0x1
+      = public void b()
+    Class member attributes (count = 1):
+    - Code attribute instructions (code length = 115, locals = 4, stack = 4):
+      [0] aload_0 v0
+      [1] new #15
+        - Class [java/util/ArrayList]
+      [4] dup
+      [5] invokespecial #47
+        - Methodref [java/util/ArrayList.<init> ()V]
+      [8] putfield #19
+        - Fieldref [com/ly/demo/d.a Ljava/util/List;]
+      [11] iconst_0
+      [12] istore_1 v1
+      [13] goto +96 (target=109)
+      [16] new #3
+        - Class [com/ly/demo/b]
+      [19] dup
+      [20] invokespecial #22
+        - Methodref [com/ly/demo/b.<init> ()V]
+      [23] astore_2 v2
+      [24] aload_2 v2
+      [25] aload_0 v0
+      [26] aload_2 v2
+      [27] invokevirtual #33
+        - Methodref [com/ly/demo/d.a (Lcom/ly/demo/b;)Ljava/lang/Integer;]
+      [30] invokevirtual #25
+        - Methodref [com/ly/demo/b.a (Ljava/lang/Integer;)V]
+      [33] aload_2 v2
+      [34] new #12
+        - Class [java/lang/StringBuilder]
+      [37] dup
+      [38] iload_1 v1
+      [39] invokestatic #39
+        - Methodref [java/lang/String.valueOf (I)Ljava/lang/String;]
+      [42] invokespecial #41
+        - Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+      [45] invokevirtual #44
+        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [48] invokevirtual #28
+        - Methodref [com/ly/demo/b.b (Ljava/lang/String;)V]
+      [51] aload_2 v2
+      [52] aload_0 v0
+      [53] invokevirtual #32
+        - Methodref [com/ly/demo/d.a ()Ljava/lang/String;]
+      [56] invokevirtual #26
+        - Methodref [com/ly/demo/b.a (Ljava/lang/String;)V]
+      [59] aload_2 v2
+      [60] new #2
+        - Class [com/ly/demo/a/b]
+      [63] dup
+      [64] invokespecial #21
+        - Methodref [com/ly/demo/a/b.<init> ()V]
+      [67] invokevirtual #24
+        - Methodref [com/ly/demo/b.a (Lcom/ly/demo/a/b;)V]
+      [70] new #4
+        - Class [com/ly/demo/b$a]
+      [73] dup
+      [74] aload_2 v2
+      [75] dup
+      [76] invokevirtual #38
+        - Methodref [java/lang/Object.getClass ()Ljava/lang/Class;]
+      [79] pop
+      [80] aload_2 v2
+      [81] invokespecial #30
+        - Methodref [com/ly/demo/b$a.<init> (Lcom/ly/demo/b;Lcom/ly/demo/b;)V]
+      [84] astore_3 v3
+      [85] getstatic #20
+        - Fieldref [java/lang/System.out Ljava/io/PrintStream;]
+      [88] aload_3 v3
+      [89] invokevirtual #31
+        - Methodref [com/ly/demo/b$a.a ()Ljava/lang/String;]
+      [92] invokevirtual #34
+        - Methodref [java/io/PrintStream.println (Ljava/lang/String;)V]
+      [95] aload_0 v0
+      [96] getfield #19
+        - Fieldref [com/ly/demo/d.a Ljava/util/List;]
+      [99] aload_2 v2
+      [100] invokeinterface #52
+        - InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
+      [105] pop
+      [106] iinc v1, 1
+      [109] iload_1 v1
+      [110] iconst_5
+      [111] ificmplt -95 (target=16)
+      [114] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 2):
+      - Local variable table attribute (count = 4)
+        v0: 0 -> 115 [Lcom/ly/demo/d; this]
+        v1: 13 -> 114 [I i]
+        v2: 24 -> 106 [Lcom/ly/demo/b; itest]
+        v3: 85 -> 106 [Lcom/ly/demo/b$a; in]
+      - Stack map table attribute (count = 2):
+        - [16] Var: ...[i], Stack: (empty)
+        - [109] Var: ..., Stack: (empty)
+  - Method:       a(Lcom/ly/demo/b;)Ljava/lang/Integer;
+    Access flags: 0x1
+      = public java.lang.Integer a(com.ly.demo.b)
+    Class member attributes (count = 1):
+    - Code attribute instructions (code length = 23, locals = 3, stack = 2):
+      [0] aload_1 v1
+      [1] invokevirtual #38
+        - Methodref [java/lang/Object.getClass ()Ljava/lang/Class;]
+      [4] ldc #5
+        - Class [com/ly/demo/c]
+      [6] invokevirtual #35
+        - Methodref [java/lang/Class.getAnnotation (Ljava/lang/Class;)Ljava/lang/annotation/Annotation;]
+      [9] checkcast #5
+        - Class [com/ly/demo/c]
+      [12] astore_2 v2
+      [13] aload_2 v2
+      [14] invokeinterface #49
+        - InterfaceMethodref [com/ly/demo/c.a ()I]
+      [19] invokestatic #36
+        - Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
+      [22] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      - Local variable table attribute (count = 3)
+        v0: 0 -> 23 [Lcom/ly/demo/d; this]
+        v1: 0 -> 23 [Lcom/ly/demo/b; my]
+        v2: 13 -> 23 [Lcom/ly/demo/c; a]
+  - Method:       c()V
+    Access flags: 0x1
+      = public void c()
+    Class member attributes (count = 1):
+    - Code attribute instructions (code length = 70, locals = 3, stack = 4):
+      [0] aload_0 v0
+      [1] getfield #19
+        - Fieldref [com/ly/demo/d.a Ljava/util/List;]
+      [4] invokeinterface #53
+        - InterfaceMethodref [java/util/List.iterator ()Ljava/util/Iterator;]
+      [9] astore_2 v2
+      [10] goto +50 (target=60)
+      [13] aload_2 v2
+      [14] invokeinterface #51
+        - InterfaceMethodref [java/util/Iterator.next ()Ljava/lang/Object;]
+      [19] checkcast #3
+        - Class [com/ly/demo/b]
+      [22] astore_1 v1
+      [23] getstatic #20
+        - Fieldref [java/lang/System.out Ljava/io/PrintStream;]
+      [26] new #12
+        - Class [java/lang/StringBuilder]
+      [29] dup
+      [30] aload_1 v1
+      [31] invokevirtual #27
+        - Methodref [com/ly/demo/b.b ()Ljava/lang/String;]
+      [34] invokestatic #40
+        - Methodref [java/lang/String.valueOf (Ljava/lang/Object;)Ljava/lang/String;]
+      [37] invokespecial #41
+        - Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+      [40] aload_1 v1
+      [41] invokevirtual #23
+        - Methodref [com/ly/demo/b.a ()Ljava/lang/String;]
+      [44] invokevirtual #43
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [47] aload_1 v1
+      [48] invokevirtual #29
+        - Methodref [com/ly/demo/b.c ()Ljava/lang/Integer;]
+      [51] invokevirtual #42
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/Object;)Ljava/lang/StringBuilder;]
+      [54] invokevirtual #44
+        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [57] invokevirtual #34
+        - Methodref [java/io/PrintStream.println (Ljava/lang/String;)V]
+      [60] aload_2 v2
+      [61] invokeinterface #50
+        - InterfaceMethodref [java/util/Iterator.hasNext ()Z]
+      [66] ifne -53 (target=13)
+      [69] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 2):
+      - Local variable table attribute (count = 2)
+        v0: 0 -> 70 [Lcom/ly/demo/d; this]
+        v1: 23 -> 60 [Lcom/ly/demo/b; itest]
+      - Stack map table attribute (count = 2):
+        - [13] Var: [T][T][a:java/util/Iterator], Stack: 
+        - [60] Var: ..., Stack: (empty)
+
+Class file attributes (count = 1):
+  - Inner classes attribute (count = 1)
+    - InnerClassesInfo:
+      Access flags:  0x0 = 
+      - Class [com/ly/demo/b$a]
+      - Class [com/ly/demo/b]
+      - Utf8 [a]
+
+_____________________________________________________________________
+- Program class: com/ly/demo/Test
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.ly.demo.Test extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 81):
+  - String [----------------------]
+  - String [Test]
+  - Class [com/ly/demo/Test]
+  - Class [com/ly/demo/a]
+  - Class [com/ly/demo/a/a]
+  - Class [com/ly/demo/a/b]
+  - Class [com/ly/demo/a/c]
+  - Class [com/ly/demo/d]
+  - Class [java/io/PrintStream]
+  - Class [java/lang/Class]
+  - Class [java/lang/Object]
+  - Class [java/lang/System]
+  - Fieldref [java/lang/System.out Ljava/io/PrintStream;]
+  - Methodref [com/ly/demo/a.<init> (Ljava/lang/String;)V]
+  - Methodref [com/ly/demo/a.b ()V]
+  - Methodref [com/ly/demo/a/a.a ()Ljava/lang/String;]
+  - Methodref [com/ly/demo/a/b.<init> ()V]
+  - Methodref [com/ly/demo/a/c.<init> ()V]
+  - Methodref [com/ly/demo/a/c.a ()Ljava/lang/Object;]
+  - Methodref [com/ly/demo/d.<init> ()V]
+  - Methodref [com/ly/demo/d.b ()V]
+  - Methodref [com/ly/demo/d.c ()V]
+  - Methodref [java/io/PrintStream.println (Ljava/lang/String;)V]
+  - Methodref [java/lang/Class.getCanonicalName ()Ljava/lang/String;]
+  - Methodref [java/lang/Object.<init> ()V]
+  - Methodref [java/lang/Object.getClass ()Ljava/lang/Class;]
+  - NameAndType [<init> ()V]
+  - NameAndType [<init> (Ljava/lang/String;)V]
+  - NameAndType [a ()Ljava/lang/Object;]
+  - NameAndType [a ()Ljava/lang/String;]
+  - NameAndType [b ()V]
+  - NameAndType [c ()V]
+  - NameAndType [getCanonicalName ()Ljava/lang/String;]
+  - NameAndType [getClass ()Ljava/lang/Class;]
+  - NameAndType [out Ljava/io/PrintStream;]
+  - NameAndType [println (Ljava/lang/String;)V]
+  - Utf8 [()Ljava/lang/Class;]
+  - Utf8 [()Ljava/lang/Object;]
+  - Utf8 [()Ljava/lang/String;]
+  - Utf8 [()V]
+  - Utf8 [(Ljava/lang/String;)V]
+  - Utf8 [([Ljava/lang/String;)V]
+  - Utf8 [----------------------]
+  - Utf8 [<init>]
+  - Utf8 [Code]
+  - Utf8 [Lcom/ly/demo/Test;]
+  - Utf8 [Lcom/ly/demo/a/b;]
+  - Utf8 [Lcom/ly/demo/a/c;]
+  - Utf8 [Lcom/ly/demo/a;]
+  - Utf8 [Lcom/ly/demo/d;]
+  - Utf8 [Ljava/io/PrintStream;]
+  - Utf8 [Ljava/lang/Object;]
+  - Utf8 [LocalVariableTable]
+  - Utf8 [Test]
+  - Utf8 [[Ljava/lang/String;]
+  - Utf8 [a]
+  - Utf8 [args]
+  - Utf8 [b]
+  - Utf8 [c]
+  - Utf8 [com/ly/demo/Test]
+  - Utf8 [com/ly/demo/a]
+  - Utf8 [com/ly/demo/a/a]
+  - Utf8 [com/ly/demo/a/b]
+  - Utf8 [com/ly/demo/a/c]
+  - Utf8 [com/ly/demo/d]
+  - Utf8 [demo]
+  - Utf8 [getCanonicalName]
+  - Utf8 [getClass]
+  - Utf8 [java/io/PrintStream]
+  - Utf8 [java/lang/Class]
+  - Utf8 [java/lang/Object]
+  - Utf8 [java/lang/System]
+  - Utf8 [main]
+  - Utf8 [myTest]
+  - Utf8 [next]
+  - Utf8 [object]
+  - Utf8 [out]
+  - Utf8 [println]
+  - Utf8 [sFff]
+  - Utf8 [this]
+
+Fields (count = 0):
+
+Methods (count = 2):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public Test()
+    Class member attributes (count = 1):
+    - Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #25
+        - Methodref [java/lang/Object.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      - Local variable table attribute (count = 1)
+        v0: 0 -> 5 [Lcom/ly/demo/Test; this]
+  - Method:       main([Ljava/lang/String;)V
+    Access flags: 0x9
+      = public static void main(java.lang.String[])
+    Class member attributes (count = 1):
+    - Code attribute instructions (code length = 117, locals = 6, stack = 3):
+      [0] new #4
+        - Class [com/ly/demo/a]
+      [3] dup
+      [4] ldc #2
+        - String [Test]
+      [6] invokespecial #14
+        - Methodref [com/ly/demo/a.<init> (Ljava/lang/String;)V]
+      [9] astore_1 v1
+      [10] new #6
+        - Class [com/ly/demo/a/b]
+      [13] dup
+      [14] invokespecial #17
+        - Methodref [com/ly/demo/a/b.<init> ()V]
+      [17] astore_2 v2
+      [18] aload_1 v1
+      [19] invokevirtual #15
+        - Methodref [com/ly/demo/a.b ()V]
+      [22] new #7
+        - Class [com/ly/demo/a/c]
+      [25] dup
+      [26] invokespecial #18
+        - Methodref [com/ly/demo/a/c.<init> ()V]
+      [29] astore_3 v3
+      [30] aload_3 v3
+      [31] invokevirtual #19
+        - Methodref [com/ly/demo/a/c.a ()Ljava/lang/Object;]
+      [34] astore v4
+      [36] getstatic #13
+        - Fieldref [java/lang/System.out Ljava/io/PrintStream;]
+      [39] aload v4
+      [41] checkcast #5
+        - Class [com/ly/demo/a/a]
+      [44] invokevirtual #16
+        - Methodref [com/ly/demo/a/a.a ()Ljava/lang/String;]
+      [47] invokevirtual #23
+        - Methodref [java/io/PrintStream.println (Ljava/lang/String;)V]
+      [50] getstatic #13
+        - Fieldref [java/lang/System.out Ljava/io/PrintStream;]
+      [53] aload_1 v1
+      [54] invokevirtual #26
+        - Methodref [java/lang/Object.getClass ()Ljava/lang/Class;]
+      [57] invokevirtual #24
+        - Methodref [java/lang/Class.getCanonicalName ()Ljava/lang/String;]
+      [60] invokevirtual #23
+        - Methodref [java/io/PrintStream.println (Ljava/lang/String;)V]
+      [63] getstatic #13
+        - Fieldref [java/lang/System.out Ljava/io/PrintStream;]
+      [66] aload_2 v2
+      [67] invokevirtual #26
+        - Methodref [java/lang/Object.getClass ()Ljava/lang/Class;]
+      [70] invokevirtual #24
+        - Methodref [java/lang/Class.getCanonicalName ()Ljava/lang/String;]
+      [73] invokevirtual #23
+        - Methodref [java/io/PrintStream.println (Ljava/lang/String;)V]
+      [76] getstatic #13
+        - Fieldref [java/lang/System.out Ljava/io/PrintStream;]
+      [79] aload_3 v3
+      [80] invokevirtual #26
+        - Methodref [java/lang/Object.getClass ()Ljava/lang/Class;]
+      [83] invokevirtual #24
+        - Methodref [java/lang/Class.getCanonicalName ()Ljava/lang/String;]
+      [86] invokevirtual #23
+        - Methodref [java/io/PrintStream.println (Ljava/lang/String;)V]
+      [89] getstatic #13
+        - Fieldref [java/lang/System.out Ljava/io/PrintStream;]
+      [92] ldc #1
+        - String [----------------------]
+      [94] invokevirtual #23
+        - Methodref [java/io/PrintStream.println (Ljava/lang/String;)V]
+      [97] new #8
+        - Class [com/ly/demo/d]
+      [100] dup
+      [101] invokespecial #20
+        - Methodref [com/ly/demo/d.<init> ()V]
+      [104] astore v5
+      [106] aload v5
+      [108] invokevirtual #21
+        - Methodref [com/ly/demo/d.b ()V]
+      [111] aload v5
+      [113] invokevirtual #22
+        - Methodref [com/ly/demo/d.c ()V]
+      [116] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      - Local variable table attribute (count = 6)
+        v0: 0 -> 117 [[Ljava/lang/String; args]
+        v1: 10 -> 117 [Lcom/ly/demo/a; demo]
+        v2: 18 -> 117 [Lcom/ly/demo/a/b; next]
+        v3: 30 -> 117 [Lcom/ly/demo/a/c; sFff]
+        v4: 36 -> 117 [Ljava/lang/Object; object]
+        v5: 106 -> 117 [Lcom/ly/demo/d; myTest]
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
+- Program class: com/ly/demo/a/a
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.ly.demo.a.a extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 33):
+  - Class [com/ly/demo/a/a]
+  - Class [java/lang/Object]
+  - Fieldref [com/ly/demo/a/a.a Ljava/lang/String;]
+  - Fieldref [com/ly/demo/a/a.b Ljava/lang/Integer;]
+  - Methodref [com/ly/demo/a/a.<init> ()V]
+  - Methodref [com/ly/demo/a/a.a (Ljava/lang/Integer;)V]
+  - Methodref [com/ly/demo/a/a.a (Ljava/lang/String;)V]
+  - Methodref [java/lang/Object.<init> ()V]
+  - NameAndType [<init> ()V]
+  - NameAndType [a (Ljava/lang/Integer;)V]
+  - NameAndType [a (Ljava/lang/String;)V]
+  - NameAndType [a Ljava/lang/String;]
+  - NameAndType [b Ljava/lang/Integer;]
+  - Utf8 [()Ljava/lang/String;]
+  - Utf8 [()V]
+  - Utf8 [(Ljava/lang/Integer;)V]
+  - Utf8 [(Ljava/lang/String;)V]
+  - Utf8 [(Ljava/lang/String;Ljava/lang/Integer;)Lcom/ly/demo/a/a;]
+  - Utf8 [<init>]
+  - Utf8 [Code]
+  - Utf8 [Lcom/ly/demo/a/a;]
+  - Utf8 [Ljava/lang/Integer;]
+  - Utf8 [Ljava/lang/String;]
+  - Utf8 [LocalVariableTable]
+  - Utf8 [a]
+  - Utf8 [age]
+  - Utf8 [b]
+  - Utf8 [com/ly/demo/a/a]
+  - Utf8 [father]
+  - Utf8 [java/lang/Object]
+  - Utf8 [name]
+  - Utf8 [this]
+
+Fields (count = 2):
+  - Field:        a Ljava/lang/String;
+    Access flags: 0x2
+      = private java.lang.String a
+  - Field:        b Ljava/lang/Integer;
+    Access flags: 0x2
+      = private java.lang.Integer b
+
+Methods (count = 5):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public a()
+    Class member attributes (count = 1):
+    - Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #8
+        - Methodref [java/lang/Object.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      - Local variable table attribute (count = 1)
+        v0: 0 -> 5 [Lcom/ly/demo/a/a; this]
+  - Method:       a(Ljava/lang/String;Ljava/lang/Integer;)Lcom/ly/demo/a/a;
+    Access flags: 0x9
+      = public static com.ly.demo.a.a a(java.lang.String,java.lang.Integer)
+    Class member attributes (count = 1):
+    - Code attribute instructions (code length = 20, locals = 3, stack = 2):
+      [0] new #1
+        - Class [com/ly/demo/a/a]
+      [3] dup
+      [4] invokespecial #5
+        - Methodref [com/ly/demo/a/a.<init> ()V]
+      [7] astore_2 v2
+      [8] aload_2 v2
+      [9] aload_1 v1
+      [10] invokevirtual #6
+        - Methodref [com/ly/demo/a/a.a (Ljava/lang/Integer;)V]
+      [13] aload_2 v2
+      [14] aload_0 v0
+      [15] invokevirtual #7
+        - Methodref [com/ly/demo/a/a.a (Ljava/lang/String;)V]
+      [18] aload_2 v2
+      [19] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      - Local variable table attribute (count = 3)
+        v0: 0 -> 20 [Ljava/lang/String; name]
+        v1: 0 -> 20 [Ljava/lang/Integer; age]
+        v2: 8 -> 20 [Lcom/ly/demo/a/a; father]
+  - Method:       a()Ljava/lang/String;
+    Access flags: 0x1
+      = public java.lang.String a()
+    Class member attributes (count = 1):
+    - Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #3
+        - Fieldref [com/ly/demo/a/a.a Ljava/lang/String;]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      - Local variable table attribute (count = 1)
+        v0: 0 -> 5 [Lcom/ly/demo/a/a; this]
+  - Method:       a(Ljava/lang/String;)V
+    Access flags: 0x1
+      = public void a(java.lang.String)
+    Class member attributes (count = 1):
+    - Code attribute instructions (code length = 6, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #3
+        - Fieldref [com/ly/demo/a/a.a Ljava/lang/String;]
+      [5] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      - Local variable table attribute (count = 2)
+        v0: 0 -> 6 [Lcom/ly/demo/a/a; this]
+        v1: 0 -> 6 [Ljava/lang/String; name]
+  - Method:       a(Ljava/lang/Integer;)V
+    Access flags: 0x1
+      = public void a(java.lang.Integer)
+    Class member attributes (count = 1):
+    - Code attribute instructions (code length = 6, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #4
+        - Fieldref [com/ly/demo/a/a.b Ljava/lang/Integer;]
+      [5] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      - Local variable table attribute (count = 2)
+        v0: 0 -> 6 [Lcom/ly/demo/a/a; this]
+        v1: 0 -> 6 [Ljava/lang/Integer; age]
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
+- Program class: com/ly/demo/a/b
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.ly.demo.a.b extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 13):
+  - Class [com/ly/demo/a/b]
+  - Class [java/lang/Object]
+  - Methodref [java/lang/Object.<init> ()V]
+  - NameAndType [<init> ()V]
+  - Utf8 [()V]
+  - Utf8 [<init>]
+  - Utf8 [Code]
+  - Utf8 [Lcom/ly/demo/a/b;]
+  - Utf8 [LocalVariableTable]
+  - Utf8 [com/ly/demo/a/b]
+  - Utf8 [java/lang/Object]
+  - Utf8 [this]
+
+Fields (count = 0):
+
+Methods (count = 1):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public b()
+    Class member attributes (count = 1):
+    - Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #3
+        - Methodref [java/lang/Object.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      - Local variable table attribute (count = 1)
+        v0: 0 -> 5 [Lcom/ly/demo/a/b; this]
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
+- Program class: com/ly/demo/a/c
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.ly.demo.a.c extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 60):
+  - String [a]
+  - String [??]
+  - Class [com/ly/demo/a/a]
+  - Class [com/ly/demo/a/c]
+  - Class [java/lang/Class]
+  - Class [java/lang/IllegalAccessException]
+  - Class [java/lang/Integer]
+  - Class [java/lang/NoSuchMethodException]
+  - Class [java/lang/Object]
+  - Class [java/lang/String]
+  - Class [java/lang/reflect/InvocationTargetException]
+  - Class [java/lang/reflect/Method]
+  - Methodref [com/ly/demo/a/a.<init> ()V]
+  - Methodref [java/lang/Class.getMethod (Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;]
+  - Methodref [java/lang/IllegalAccessException.printStackTrace ()V]
+  - Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
+  - Methodref [java/lang/NoSuchMethodException.printStackTrace ()V]
+  - Methodref [java/lang/Object.<init> ()V]
+  - Methodref [java/lang/reflect/InvocationTargetException.printStackTrace ()V]
+  - Methodref [java/lang/reflect/Method.invoke (Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;]
+  - NameAndType [<init> ()V]
+  - NameAndType [getMethod (Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;]
+  - NameAndType [invoke (Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;]
+  - NameAndType [printStackTrace ()V]
+  - NameAndType [valueOf (I)Ljava/lang/Integer;]
+  - Utf8 [()Ljava/lang/Object;]
+  - Utf8 [()V]
+  - Utf8 [(I)Ljava/lang/Integer;]
+  - Utf8 [(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;]
+  - Utf8 [(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;]
+  - Utf8 [<init>]
+  - Utf8 [Code]
+  - Utf8 [Lcom/ly/demo/a/c;]
+  - Utf8 [Ljava/lang/IllegalAccessException;]
+  - Utf8 [Ljava/lang/NoSuchMethodException;]
+  - Utf8 [Ljava/lang/Object;]
+  - Utf8 [Ljava/lang/reflect/InvocationTargetException;]
+  - Utf8 [Ljava/lang/reflect/Method;]
+  - Utf8 [LocalVariableTable]
+  - Utf8 [StackMapTable]
+  - Utf8 [a]
+  - Utf8 [com/ly/demo/a/a]
+  - Utf8 [com/ly/demo/a/c]
+  - Utf8 [e]
+  - Utf8 [getMethod]
+  - Utf8 [invoke]
+  - Utf8 [java/lang/Class]
+  - Utf8 [java/lang/IllegalAccessException]
+  - Utf8 [java/lang/Integer]
+  - Utf8 [java/lang/NoSuchMethodException]
+  - Utf8 [java/lang/Object]
+  - Utf8 [java/lang/String]
+  - Utf8 [java/lang/reflect/InvocationTargetException]
+  - Utf8 [java/lang/reflect/Method]
+  - Utf8 [newInstance]
+  - Utf8 [printStackTrace]
+  - Utf8 [this]
+  - Utf8 [valueOf]
+  - Utf8 [??]
+
+Fields (count = 0):
+
+Methods (count = 2):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public c()
+    Class member attributes (count = 1):
+    - Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #18
+        - Methodref [java/lang/Object.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      - Local variable table attribute (count = 1)
+        v0: 0 -> 5 [Lcom/ly/demo/a/c; this]
+  - Method:       a()Ljava/lang/Object;
+    Access flags: 0x1
+      = public java.lang.Object a()
+    Class member attributes (count = 1):
+    - Code attribute instructions (code length = 82, locals = 4, stack = 6):
+      [0] aconst_null
+      [1] astore_1 v1
+      [2] aconst_null
+      [3] astore_2 v2
+      [4] ldc #3
+        - Class [com/ly/demo/a/a]
+      [6] ldc #1
+        - String [a]
+      [8] iconst_2
+      [9] anewarray #5
+        - Class [java/lang/Class]
+      [12] dup
+      [13] iconst_0
+      [14] ldc #10
+        - Class [java/lang/String]
+      [16] aastore
+      [17] dup
+      [18] iconst_1
+      [19] ldc #7
+        - Class [java/lang/Integer]
+      [21] aastore
+      [22] invokevirtual #14
+        - Methodref [java/lang/Class.getMethod (Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;]
+      [25] astore_1 v1
+      [26] aload_1 v1
+      [27] new #3
+        - Class [com/ly/demo/a/a]
+      [30] dup
+      [31] invokespecial #13
+        - Methodref [com/ly/demo/a/a.<init> ()V]
+      [34] iconst_2
+      [35] anewarray #9
+        - Class [java/lang/Object]
+      [38] dup
+      [39] iconst_0
+      [40] ldc #2
+        - String [??]
+      [42] aastore
+      [43] dup
+      [44] iconst_1
+      [45] sipush 200
+      [48] invokestatic #16
+        - Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
+      [51] aastore
+      [52] invokevirtual #20
+        - Methodref [java/lang/reflect/Method.invoke (Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;]
+      [55] astore_2 v2
+      [56] goto +24 (target=80)
+      [59] astore_3 v3
+      [60] aload_3 v3
+      [61] invokevirtual #17
+        - Methodref [java/lang/NoSuchMethodException.printStackTrace ()V]
+      [64] goto +16 (target=80)
+      [67] astore_3 v3
+      [68] aload_3 v3
+      [69] invokevirtual #15
+        - Methodref [java/lang/IllegalAccessException.printStackTrace ()V]
+      [72] goto +8 (target=80)
+      [75] astore_3 v3
+      [76] aload_3 v3
+      [77] invokevirtual #19
+        - Methodref [java/lang/reflect/InvocationTargetException.printStackTrace ()V]
+      [80] aload_2 v2
+      [81] areturn
+      Code attribute exceptions (count = 3):
+      - ExceptionInfo (4 -> 56: 59):
+      - Class [java/lang/NoSuchMethodException]
+      - ExceptionInfo (4 -> 56: 67):
+      - Class [java/lang/IllegalAccessException]
+      - ExceptionInfo (4 -> 56: 75):
+      - Class [java/lang/reflect/InvocationTargetException]
+      Code attribute attributes (attribute count = 2):
+      - Local variable table attribute (count = 6)
+        v0: 0 -> 82 [Lcom/ly/demo/a/c; this]
+        v1: 2 -> 82 [Ljava/lang/reflect/Method; newInstance]
+        v2: 4 -> 82 [Ljava/lang/Object; invoke]
+        v3: 60 -> 64 [Ljava/lang/NoSuchMethodException; e]
+        v3: 68 -> 72 [Ljava/lang/IllegalAccessException; e]
+        v3: 76 -> 80 [Ljava/lang/reflect/InvocationTargetException; e]
+      - Stack map table attribute (count = 4):
+        - [59] Var: [T][T][a:java/lang/Object], Stack: [a:java/lang/NoSuchMethodException]
+        - [67] Var: ..., Stack: [a:java/lang/IllegalAccessException]
+        - [75] Var: ..., Stack: [a:java/lang/reflect/InvocationTargetException]
+        - [80] Var: ..., Stack: (empty)
+
+Class file attributes (count = 0):
+

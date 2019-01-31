@@ -1,0 +1,41 @@
+com.ly.demo.Demo -> com.ly.demo.a:
+    java.lang.String test -> a
+    java.lang.String getTest() -> a
+    void show() -> b
+com.ly.demo.Itest -> com.ly.demo.b:
+    java.lang.String time -> a
+    java.lang.String name -> b
+    java.lang.Integer count -> c
+    com.ly.demo.next.Next next -> d
+    void setNext(com.ly.demo.next.Next) -> a
+    java.lang.String getTime() -> a
+    void setTime(java.lang.String) -> a
+    java.lang.String getName() -> b
+    void setName(java.lang.String) -> b
+    java.lang.Integer getCount() -> c
+    void setCount(java.lang.Integer) -> a
+com.ly.demo.Itest$inner -> com.ly.demo.b$a:
+    java.lang.String name -> b
+    com.ly.demo.Itest itest -> c
+    com.ly.demo.Itest this$0 -> a
+    java.lang.String getName() -> a
+com.ly.demo.MyAnnotation -> com.ly.demo.c:
+    int count() -> a
+com.ly.demo.MyTest -> com.ly.demo.d:
+    java.util.List iList -> a
+    java.lang.String getDate() -> a
+    void init() -> b
+    java.lang.Integer getAnno(com.ly.demo.Itest) -> a
+    void show() -> c
+com.ly.demo.Test -> com.ly.demo.Test:
+    void main(java.lang.String[]) -> main
+com.ly.demo.next.Father -> com.ly.demo.a.a:
+    java.lang.String name -> a
+    java.lang.Integer age -> b
+    com.ly.demo.next.Father newInstance(java.lang.String,java.lang.Integer) -> a
+    java.lang.String getName() -> a
+    void setName(java.lang.String) -> a
+    void setAge(java.lang.Integer) -> a
+com.ly.demo.next.Next -> com.ly.demo.a.b:
+com.ly.demo.next.TestFFF -> com.ly.demo.a.c:
+    java.lang.Object testthis() -> a

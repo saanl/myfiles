@@ -1,0 +1,2 @@
+com.ly.demo.Test
+com.ly.demo.Test: void main(java.lang.String[])

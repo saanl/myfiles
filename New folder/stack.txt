@@ -1,0 +1,4 @@
+Exception in thread "main" java.lang.ArithmeticException: / by zero
+        at com.ly.demo.b.b(Itest.java:25)
+        at com.ly.demo.d.c(MyTest.java:43)
+        at com.ly.demo.Test.main(Test.java:23)
